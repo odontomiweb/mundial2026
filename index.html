@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mundial 2026 ⚽ Fase de Grupos</title>
+  <meta name="description" content="Calendario, tablas, probabilidades y tips de la fase de grupos del Mundial 2026." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>⚽ Mundial 2026</h1>
+      <p class="sub">Estados Unidos · México · Canadá &nbsp;·&nbsp; Fase de Grupos</p>
+      <p id="tz-note" class="tz-note"></p>
+    </div>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button class="tab active" data-tab="hoy">Hoy</button>
+    <button class="tab" data-tab="calendario">Calendario</button>
+    <button class="tab" data-tab="grupos">Grupos</button>
+    <button class="tab" data-tab="tips">Tips</button>
+  </nav>
+
+  <main>
+    <section id="hoy" class="panel active"></section>
+    <section id="calendario" class="panel"></section>
+    <section id="grupos" class="panel"></section>
+    <section id="tips" class="panel"></section>
+  </main>
+
+  <footer>
+    <p id="updated"></p>
+    <p class="credit">Hecho con ⚽ para seguir el Mundial · Los marcadores se actualizan solos</p>
+  </footer>
+
+  <!-- Lightbox para ver imagenes grandes -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <span class="lightbox-close">&times;</span>
+    <img id="lightbox-img" src="" alt="Apunte" />
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

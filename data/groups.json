@@ -1,0 +1,266 @@
+{
+  "A": [
+    {
+      "key": "Mexico",
+      "name": "Mexico",
+      "flag": "🇲🇽"
+    },
+    {
+      "key": "South Africa",
+      "name": "Sudafrica",
+      "flag": "🇿🇦"
+    },
+    {
+      "key": "South Korea",
+      "name": "Corea del Sur",
+      "flag": "🇰🇷"
+    },
+    {
+      "key": "Czechia",
+      "name": "Chequia",
+      "flag": "🇨🇿"
+    }
+  ],
+  "B": [
+    {
+      "key": "Canada",
+      "name": "Canada",
+      "flag": "🇨🇦"
+    },
+    {
+      "key": "Bosnia and Herzegovina",
+      "name": "Bosnia y Herzegovina",
+      "flag": "🇧🇦"
+    },
+    {
+      "key": "Qatar",
+      "name": "Catar",
+      "flag": "🇶🇦"
+    },
+    {
+      "key": "Switzerland",
+      "name": "Suiza",
+      "flag": "🇨🇭"
+    }
+  ],
+  "C": [
+    {
+      "key": "Brazil",
+      "name": "Brasil",
+      "flag": "🇧🇷"
+    },
+    {
+      "key": "Morocco",
+      "name": "Marruecos",
+      "flag": "🇲🇦"
+    },
+    {
+      "key": "Haiti",
+      "name": "Haiti",
+      "flag": "🇭🇹"
+    },
+    {
+      "key": "Scotland",
+      "name": "Escocia",
+      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+    }
+  ],
+  "D": [
+    {
+      "key": "United States",
+      "name": "Estados Unidos",
+      "flag": "🇺🇸"
+    },
+    {
+      "key": "Paraguay",
+      "name": "Paraguay",
+      "flag": "🇵🇾"
+    },
+    {
+      "key": "Australia",
+      "name": "Australia",
+      "flag": "🇦🇺"
+    },
+    {
+      "key": "Turkiye",
+      "name": "Turquia",
+      "flag": "🇹🇷"
+    }
+  ],
+  "E": [
+    {
+      "key": "Germany",
+      "name": "Alemania",
+      "flag": "🇩🇪"
+    },
+    {
+      "key": "Curacao",
+      "name": "Curazao",
+      "flag": "🇨🇼"
+    },
+    {
+      "key": "Ivory Coast",
+      "name": "Costa de Marfil",
+      "flag": "🇨🇮"
+    },
+    {
+      "key": "Ecuador",
+      "name": "Ecuador",
+      "flag": "🇪🇨"
+    }
+  ],
+  "F": [
+    {
+      "key": "Netherlands",
+      "name": "Paises Bajos",
+      "flag": "🇳🇱"
+    },
+    {
+      "key": "Japan",
+      "name": "Japon",
+      "flag": "🇯🇵"
+    },
+    {
+      "key": "Sweden",
+      "name": "Suecia",
+      "flag": "🇸🇪"
+    },
+    {
+      "key": "Tunisia",
+      "name": "Tunez",
+      "flag": "🇹🇳"
+    }
+  ],
+  "G": [
+    {
+      "key": "Belgium",
+      "name": "Belgica",
+      "flag": "🇧🇪"
+    },
+    {
+      "key": "Egypt",
+      "name": "Egipto",
+      "flag": "🇪🇬"
+    },
+    {
+      "key": "Iran",
+      "name": "Iran",
+      "flag": "🇮🇷"
+    },
+    {
+      "key": "New Zealand",
+      "name": "Nueva Zelanda",
+      "flag": "🇳🇿"
+    }
+  ],
+  "H": [
+    {
+      "key": "Spain",
+      "name": "Espana",
+      "flag": "🇪🇸"
+    },
+    {
+      "key": "Cape Verde",
+      "name": "Cabo Verde",
+      "flag": "🇨🇻"
+    },
+    {
+      "key": "Saudi Arabia",
+      "name": "Arabia Saudita",
+      "flag": "🇸🇦"
+    },
+    {
+      "key": "Uruguay",
+      "name": "Uruguay",
+      "flag": "🇺🇾"
+    }
+  ],
+  "I": [
+    {
+      "key": "France",
+      "name": "Francia",
+      "flag": "🇫🇷"
+    },
+    {
+      "key": "Senegal",
+      "name": "Senegal",
+      "flag": "🇸🇳"
+    },
+    {
+      "key": "Iraq",
+      "name": "Irak",
+      "flag": "🇮🇶"
+    },
+    {
+      "key": "Norway",
+      "name": "Noruega",
+      "flag": "🇳🇴"
+    }
+  ],
+  "J": [
+    {
+      "key": "Argentina",
+      "name": "Argentina",
+      "flag": "🇦🇷"
+    },
+    {
+      "key": "Algeria",
+      "name": "Argelia",
+      "flag": "🇩🇿"
+    },
+    {
+      "key": "Austria",
+      "name": "Austria",
+      "flag": "🇦🇹"
+    },
+    {
+      "key": "Jordan",
+      "name": "Jordania",
+      "flag": "🇯🇴"
+    }
+  ],
+  "K": [
+    {
+      "key": "Portugal",
+      "name": "Portugal",
+      "flag": "🇵🇹"
+    },
+    {
+      "key": "DR Congo",
+      "name": "RD Congo",
+      "flag": "🇨🇩"
+    },
+    {
+      "key": "Uzbekistan",
+      "name": "Uzbekistan",
+      "flag": "🇺🇿"
+    },
+    {
+      "key": "Colombia",
+      "name": "Colombia",
+      "flag": "🇨🇴"
+    }
+  ],
+  "L": [
+    {
+      "key": "England",
+      "name": "Inglaterra",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+    },
+    {
+      "key": "Croatia",
+      "name": "Croacia",
+      "flag": "🇭🇷"
+    },
+    {
+      "key": "Ghana",
+      "name": "Ghana",
+      "flag": "🇬🇭"
+    },
+    {
+      "key": "Panama",
+      "name": "Panama",
+      "flag": "🇵🇦"
+    }
+  ]
+}

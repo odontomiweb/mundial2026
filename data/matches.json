@@ -1,0 +1,1445 @@
+{
+  "updated_utc": null,
+  "matches": [
+    {
+      "id": 1,
+      "matchday": 1,
+      "group": "A",
+      "kickoff_utc": "2026-06-11T19:00:00Z",
+      "city": "Mexico City",
+      "team1": {
+        "key": "Mexico",
+        "name": "Mexico",
+        "flag": "🇲🇽"
+      },
+      "team2": {
+        "key": "South Africa",
+        "name": "Sudafrica",
+        "flag": "🇿🇦"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 2,
+      "matchday": 1,
+      "group": "A",
+      "kickoff_utc": "2026-06-12T02:00:00Z",
+      "city": "Zapopan",
+      "team1": {
+        "key": "South Korea",
+        "name": "Corea del Sur",
+        "flag": "🇰🇷"
+      },
+      "team2": {
+        "key": "Czechia",
+        "name": "Chequia",
+        "flag": "🇨🇿"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 3,
+      "matchday": 1,
+      "group": "B",
+      "kickoff_utc": "2026-06-12T19:00:00Z",
+      "city": "Toronto",
+      "team1": {
+        "key": "Canada",
+        "name": "Canada",
+        "flag": "🇨🇦"
+      },
+      "team2": {
+        "key": "Bosnia and Herzegovina",
+        "name": "Bosnia y Herzegovina",
+        "flag": "🇧🇦"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 4,
+      "matchday": 1,
+      "group": "D",
+      "kickoff_utc": "2026-06-13T01:00:00Z",
+      "city": "Los Angeles",
+      "team1": {
+        "key": "United States",
+        "name": "Estados Unidos",
+        "flag": "🇺🇸"
+      },
+      "team2": {
+        "key": "Paraguay",
+        "name": "Paraguay",
+        "flag": "🇵🇾"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 5,
+      "matchday": 1,
+      "group": "B",
+      "kickoff_utc": "2026-06-13T19:00:00Z",
+      "city": "San Francisco",
+      "team1": {
+        "key": "Qatar",
+        "name": "Catar",
+        "flag": "🇶🇦"
+      },
+      "team2": {
+        "key": "Switzerland",
+        "name": "Suiza",
+        "flag": "🇨🇭"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 6,
+      "matchday": 1,
+      "group": "C",
+      "kickoff_utc": "2026-06-13T22:00:00Z",
+      "city": "New Jersey",
+      "team1": {
+        "key": "Brazil",
+        "name": "Brasil",
+        "flag": "🇧🇷"
+      },
+      "team2": {
+        "key": "Morocco",
+        "name": "Marruecos",
+        "flag": "🇲🇦"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 7,
+      "matchday": 1,
+      "group": "C",
+      "kickoff_utc": "2026-06-14T01:00:00Z",
+      "city": "Boston",
+      "team1": {
+        "key": "Haiti",
+        "name": "Haiti",
+        "flag": "🇭🇹"
+      },
+      "team2": {
+        "key": "Scotland",
+        "name": "Escocia",
+        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 8,
+      "matchday": 1,
+      "group": "D",
+      "kickoff_utc": "2026-06-14T01:00:00Z",
+      "city": "Vancouver",
+      "team1": {
+        "key": "Australia",
+        "name": "Australia",
+        "flag": "🇦🇺"
+      },
+      "team2": {
+        "key": "Turkiye",
+        "name": "Turquia",
+        "flag": "🇹🇷"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 9,
+      "matchday": 1,
+      "group": "E",
+      "kickoff_utc": "2026-06-14T17:00:00Z",
+      "city": "Houston",
+      "team1": {
+        "key": "Germany",
+        "name": "Alemania",
+        "flag": "🇩🇪"
+      },
+      "team2": {
+        "key": "Curacao",
+        "name": "Curazao",
+        "flag": "🇨🇼"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 10,
+      "matchday": 1,
+      "group": "F",
+      "kickoff_utc": "2026-06-14T20:00:00Z",
+      "city": "Dallas",
+      "team1": {
+        "key": "Netherlands",
+        "name": "Paises Bajos",
+        "flag": "🇳🇱"
+      },
+      "team2": {
+        "key": "Japan",
+        "name": "Japon",
+        "flag": "🇯🇵"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 11,
+      "matchday": 1,
+      "group": "E",
+      "kickoff_utc": "2026-06-14T23:00:00Z",
+      "city": "Philadelphia",
+      "team1": {
+        "key": "Ivory Coast",
+        "name": "Costa de Marfil",
+        "flag": "🇨🇮"
+      },
+      "team2": {
+        "key": "Ecuador",
+        "name": "Ecuador",
+        "flag": "🇪🇨"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 12,
+      "matchday": 1,
+      "group": "F",
+      "kickoff_utc": "2026-06-15T02:00:00Z",
+      "city": "Guadalupe",
+      "team1": {
+        "key": "Sweden",
+        "name": "Suecia",
+        "flag": "🇸🇪"
+      },
+      "team2": {
+        "key": "Tunisia",
+        "name": "Tunez",
+        "flag": "🇹🇳"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 13,
+      "matchday": 1,
+      "group": "H",
+      "kickoff_utc": "2026-06-15T16:00:00Z",
+      "city": "Atlanta",
+      "team1": {
+        "key": "Spain",
+        "name": "Espana",
+        "flag": "🇪🇸"
+      },
+      "team2": {
+        "key": "Cape Verde",
+        "name": "Cabo Verde",
+        "flag": "🇨🇻"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 14,
+      "matchday": 1,
+      "group": "G",
+      "kickoff_utc": "2026-06-15T19:00:00Z",
+      "city": "Vancouver",
+      "team1": {
+        "key": "Belgium",
+        "name": "Belgica",
+        "flag": "🇧🇪"
+      },
+      "team2": {
+        "key": "Egypt",
+        "name": "Egipto",
+        "flag": "🇪🇬"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 15,
+      "matchday": 1,
+      "group": "H",
+      "kickoff_utc": "2026-06-15T22:00:00Z",
+      "city": "Miami",
+      "team1": {
+        "key": "Saudi Arabia",
+        "name": "Arabia Saudita",
+        "flag": "🇸🇦"
+      },
+      "team2": {
+        "key": "Uruguay",
+        "name": "Uruguay",
+        "flag": "🇺🇾"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 16,
+      "matchday": 1,
+      "group": "G",
+      "kickoff_utc": "2026-06-16T01:00:00Z",
+      "city": "Los Angeles",
+      "team1": {
+        "key": "Iran",
+        "name": "Iran",
+        "flag": "🇮🇷"
+      },
+      "team2": {
+        "key": "New Zealand",
+        "name": "Nueva Zelanda",
+        "flag": "🇳🇿"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 17,
+      "matchday": 1,
+      "group": "I",
+      "kickoff_utc": "2026-06-16T19:00:00Z",
+      "city": "New Jersey",
+      "team1": {
+        "key": "France",
+        "name": "Francia",
+        "flag": "🇫🇷"
+      },
+      "team2": {
+        "key": "Senegal",
+        "name": "Senegal",
+        "flag": "🇸🇳"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 18,
+      "matchday": 1,
+      "group": "I",
+      "kickoff_utc": "2026-06-16T22:00:00Z",
+      "city": "Boston",
+      "team1": {
+        "key": "Iraq",
+        "name": "Irak",
+        "flag": "🇮🇶"
+      },
+      "team2": {
+        "key": "Norway",
+        "name": "Noruega",
+        "flag": "🇳🇴"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 19,
+      "matchday": 1,
+      "group": "J",
+      "kickoff_utc": "2026-06-17T01:00:00Z",
+      "city": "Kansas City",
+      "team1": {
+        "key": "Argentina",
+        "name": "Argentina",
+        "flag": "🇦🇷"
+      },
+      "team2": {
+        "key": "Algeria",
+        "name": "Argelia",
+        "flag": "🇩🇿"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 20,
+      "matchday": 1,
+      "group": "J",
+      "kickoff_utc": "2026-06-17T04:00:00Z",
+      "city": "San Francisco",
+      "team1": {
+        "key": "Austria",
+        "name": "Austria",
+        "flag": "🇦🇹"
+      },
+      "team2": {
+        "key": "Jordan",
+        "name": "Jordania",
+        "flag": "🇯🇴"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 21,
+      "matchday": 1,
+      "group": "K",
+      "kickoff_utc": "2026-06-17T17:00:00Z",
+      "city": "Houston",
+      "team1": {
+        "key": "Portugal",
+        "name": "Portugal",
+        "flag": "🇵🇹"
+      },
+      "team2": {
+        "key": "DR Congo",
+        "name": "RD Congo",
+        "flag": "🇨🇩"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 22,
+      "matchday": 1,
+      "group": "L",
+      "kickoff_utc": "2026-06-17T20:00:00Z",
+      "city": "Dallas",
+      "team1": {
+        "key": "England",
+        "name": "Inglaterra",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      },
+      "team2": {
+        "key": "Croatia",
+        "name": "Croacia",
+        "flag": "🇭🇷"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 23,
+      "matchday": 1,
+      "group": "L",
+      "kickoff_utc": "2026-06-17T23:00:00Z",
+      "city": "Toronto",
+      "team1": {
+        "key": "Ghana",
+        "name": "Ghana",
+        "flag": "🇬🇭"
+      },
+      "team2": {
+        "key": "Panama",
+        "name": "Panama",
+        "flag": "🇵🇦"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 24,
+      "matchday": 1,
+      "group": "K",
+      "kickoff_utc": "2026-06-18T02:00:00Z",
+      "city": "Mexico City",
+      "team1": {
+        "key": "Uzbekistan",
+        "name": "Uzbekistan",
+        "flag": "🇺🇿"
+      },
+      "team2": {
+        "key": "Colombia",
+        "name": "Colombia",
+        "flag": "🇨🇴"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 25,
+      "matchday": 2,
+      "group": "A",
+      "kickoff_utc": "2026-06-18T16:00:00Z",
+      "city": "Atlanta",
+      "team1": {
+        "key": "Czechia",
+        "name": "Chequia",
+        "flag": "🇨🇿"
+      },
+      "team2": {
+        "key": "South Africa",
+        "name": "Sudafrica",
+        "flag": "🇿🇦"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 26,
+      "matchday": 2,
+      "group": "B",
+      "kickoff_utc": "2026-06-18T19:00:00Z",
+      "city": "Los Angeles",
+      "team1": {
+        "key": "Switzerland",
+        "name": "Suiza",
+        "flag": "🇨🇭"
+      },
+      "team2": {
+        "key": "Bosnia and Herzegovina",
+        "name": "Bosnia y Herzegovina",
+        "flag": "🇧🇦"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 27,
+      "matchday": 2,
+      "group": "B",
+      "kickoff_utc": "2026-06-18T22:00:00Z",
+      "city": "Vancouver",
+      "team1": {
+        "key": "Canada",
+        "name": "Canada",
+        "flag": "🇨🇦"
+      },
+      "team2": {
+        "key": "Qatar",
+        "name": "Catar",
+        "flag": "🇶🇦"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 28,
+      "matchday": 2,
+      "group": "A",
+      "kickoff_utc": "2026-06-19T01:00:00Z",
+      "city": "Zapopan",
+      "team1": {
+        "key": "Mexico",
+        "name": "Mexico",
+        "flag": "🇲🇽"
+      },
+      "team2": {
+        "key": "South Korea",
+        "name": "Corea del Sur",
+        "flag": "🇰🇷"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 29,
+      "matchday": 2,
+      "group": "C",
+      "kickoff_utc": "2026-06-19T22:00:00Z",
+      "city": "Boston",
+      "team1": {
+        "key": "Scotland",
+        "name": "Escocia",
+        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+      },
+      "team2": {
+        "key": "Morocco",
+        "name": "Marruecos",
+        "flag": "🇲🇦"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 30,
+      "matchday": 2,
+      "group": "D",
+      "kickoff_utc": "2026-06-19T19:00:00Z",
+      "city": "Seattle",
+      "team1": {
+        "key": "United States",
+        "name": "Estados Unidos",
+        "flag": "🇺🇸"
+      },
+      "team2": {
+        "key": "Australia",
+        "name": "Australia",
+        "flag": "🇦🇺"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 31,
+      "matchday": 2,
+      "group": "C",
+      "kickoff_utc": "2026-06-20T00:30:00Z",
+      "city": "Philadelphia",
+      "team1": {
+        "key": "Brazil",
+        "name": "Brasil",
+        "flag": "🇧🇷"
+      },
+      "team2": {
+        "key": "Haiti",
+        "name": "Haiti",
+        "flag": "🇭🇹"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 32,
+      "matchday": 2,
+      "group": "D",
+      "kickoff_utc": "2026-06-20T04:00:00Z",
+      "city": "San Francisco",
+      "team1": {
+        "key": "Turkiye",
+        "name": "Turquia",
+        "flag": "🇹🇷"
+      },
+      "team2": {
+        "key": "Paraguay",
+        "name": "Paraguay",
+        "flag": "🇵🇾"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 33,
+      "matchday": 2,
+      "group": "F",
+      "kickoff_utc": "2026-06-20T17:00:00Z",
+      "city": "Houston",
+      "team1": {
+        "key": "Netherlands",
+        "name": "Paises Bajos",
+        "flag": "🇳🇱"
+      },
+      "team2": {
+        "key": "Sweden",
+        "name": "Suecia",
+        "flag": "🇸🇪"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 34,
+      "matchday": 2,
+      "group": "E",
+      "kickoff_utc": "2026-06-20T20:00:00Z",
+      "city": "Toronto",
+      "team1": {
+        "key": "Germany",
+        "name": "Alemania",
+        "flag": "🇩🇪"
+      },
+      "team2": {
+        "key": "Ivory Coast",
+        "name": "Costa de Marfil",
+        "flag": "🇨🇮"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 35,
+      "matchday": 2,
+      "group": "E",
+      "kickoff_utc": "2026-06-21T00:00:00Z",
+      "city": "Kansas City",
+      "team1": {
+        "key": "Ecuador",
+        "name": "Ecuador",
+        "flag": "🇪🇨"
+      },
+      "team2": {
+        "key": "Curacao",
+        "name": "Curazao",
+        "flag": "🇨🇼"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 36,
+      "matchday": 2,
+      "group": "F",
+      "kickoff_utc": "2026-06-21T04:00:00Z",
+      "city": "Guadalupe",
+      "team1": {
+        "key": "Tunisia",
+        "name": "Tunez",
+        "flag": "🇹🇳"
+      },
+      "team2": {
+        "key": "Japan",
+        "name": "Japon",
+        "flag": "🇯🇵"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 37,
+      "matchday": 2,
+      "group": "H",
+      "kickoff_utc": "2026-06-21T16:00:00Z",
+      "city": "Atlanta",
+      "team1": {
+        "key": "Spain",
+        "name": "Espana",
+        "flag": "🇪🇸"
+      },
+      "team2": {
+        "key": "Saudi Arabia",
+        "name": "Arabia Saudita",
+        "flag": "🇸🇦"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 38,
+      "matchday": 2,
+      "group": "G",
+      "kickoff_utc": "2026-06-21T19:00:00Z",
+      "city": "Los Angeles",
+      "team1": {
+        "key": "Belgium",
+        "name": "Belgica",
+        "flag": "🇧🇪"
+      },
+      "team2": {
+        "key": "Iran",
+        "name": "Iran",
+        "flag": "🇮🇷"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 39,
+      "matchday": 2,
+      "group": "H",
+      "kickoff_utc": "2026-06-21T22:00:00Z",
+      "city": "Miami",
+      "team1": {
+        "key": "Uruguay",
+        "name": "Uruguay",
+        "flag": "🇺🇾"
+      },
+      "team2": {
+        "key": "Cape Verde",
+        "name": "Cabo Verde",
+        "flag": "🇨🇻"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 40,
+      "matchday": 2,
+      "group": "G",
+      "kickoff_utc": "2026-06-22T01:00:00Z",
+      "city": "Vancouver",
+      "team1": {
+        "key": "New Zealand",
+        "name": "Nueva Zelanda",
+        "flag": "🇳🇿"
+      },
+      "team2": {
+        "key": "Egypt",
+        "name": "Egipto",
+        "flag": "🇪🇬"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 41,
+      "matchday": 2,
+      "group": "J",
+      "kickoff_utc": "2026-06-22T17:00:00Z",
+      "city": "Dallas",
+      "team1": {
+        "key": "Argentina",
+        "name": "Argentina",
+        "flag": "🇦🇷"
+      },
+      "team2": {
+        "key": "Austria",
+        "name": "Austria",
+        "flag": "🇦🇹"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 42,
+      "matchday": 2,
+      "group": "I",
+      "kickoff_utc": "2026-06-22T21:00:00Z",
+      "city": "Philadelphia",
+      "team1": {
+        "key": "France",
+        "name": "Francia",
+        "flag": "🇫🇷"
+      },
+      "team2": {
+        "key": "Iraq",
+        "name": "Irak",
+        "flag": "🇮🇶"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 43,
+      "matchday": 2,
+      "group": "I",
+      "kickoff_utc": "2026-06-23T00:00:00Z",
+      "city": "New Jersey",
+      "team1": {
+        "key": "Norway",
+        "name": "Noruega",
+        "flag": "🇳🇴"
+      },
+      "team2": {
+        "key": "Senegal",
+        "name": "Senegal",
+        "flag": "🇸🇳"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 44,
+      "matchday": 2,
+      "group": "J",
+      "kickoff_utc": "2026-06-23T03:00:00Z",
+      "city": "San Francisco",
+      "team1": {
+        "key": "Jordan",
+        "name": "Jordania",
+        "flag": "🇯🇴"
+      },
+      "team2": {
+        "key": "Algeria",
+        "name": "Argelia",
+        "flag": "🇩🇿"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 45,
+      "matchday": 2,
+      "group": "K",
+      "kickoff_utc": "2026-06-23T17:00:00Z",
+      "city": "Houston",
+      "team1": {
+        "key": "Portugal",
+        "name": "Portugal",
+        "flag": "🇵🇹"
+      },
+      "team2": {
+        "key": "Uzbekistan",
+        "name": "Uzbekistan",
+        "flag": "🇺🇿"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 46,
+      "matchday": 2,
+      "group": "L",
+      "kickoff_utc": "2026-06-23T20:00:00Z",
+      "city": "Boston",
+      "team1": {
+        "key": "England",
+        "name": "Inglaterra",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      },
+      "team2": {
+        "key": "Ghana",
+        "name": "Ghana",
+        "flag": "🇬🇭"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 47,
+      "matchday": 2,
+      "group": "L",
+      "kickoff_utc": "2026-06-23T23:00:00Z",
+      "city": "Toronto",
+      "team1": {
+        "key": "Panama",
+        "name": "Panama",
+        "flag": "🇵🇦"
+      },
+      "team2": {
+        "key": "Croatia",
+        "name": "Croacia",
+        "flag": "🇭🇷"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 48,
+      "matchday": 2,
+      "group": "K",
+      "kickoff_utc": "2026-06-24T02:00:00Z",
+      "city": "Zapopan",
+      "team1": {
+        "key": "Colombia",
+        "name": "Colombia",
+        "flag": "🇨🇴"
+      },
+      "team2": {
+        "key": "DR Congo",
+        "name": "RD Congo",
+        "flag": "🇨🇩"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 49,
+      "matchday": 3,
+      "group": "B",
+      "kickoff_utc": "2026-06-24T19:00:00Z",
+      "city": "Vancouver",
+      "team1": {
+        "key": "Switzerland",
+        "name": "Suiza",
+        "flag": "🇨🇭"
+      },
+      "team2": {
+        "key": "Canada",
+        "name": "Canada",
+        "flag": "🇨🇦"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 50,
+      "matchday": 3,
+      "group": "B",
+      "kickoff_utc": "2026-06-24T19:00:00Z",
+      "city": "Seattle",
+      "team1": {
+        "key": "Bosnia and Herzegovina",
+        "name": "Bosnia y Herzegovina",
+        "flag": "🇧🇦"
+      },
+      "team2": {
+        "key": "Qatar",
+        "name": "Catar",
+        "flag": "🇶🇦"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 51,
+      "matchday": 3,
+      "group": "C",
+      "kickoff_utc": "2026-06-24T22:00:00Z",
+      "city": "Miami",
+      "team1": {
+        "key": "Scotland",
+        "name": "Escocia",
+        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+      },
+      "team2": {
+        "key": "Brazil",
+        "name": "Brasil",
+        "flag": "🇧🇷"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 52,
+      "matchday": 3,
+      "group": "C",
+      "kickoff_utc": "2026-06-24T22:00:00Z",
+      "city": "Atlanta",
+      "team1": {
+        "key": "Morocco",
+        "name": "Marruecos",
+        "flag": "🇲🇦"
+      },
+      "team2": {
+        "key": "Haiti",
+        "name": "Haiti",
+        "flag": "🇭🇹"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 53,
+      "matchday": 3,
+      "group": "A",
+      "kickoff_utc": "2026-06-25T01:00:00Z",
+      "city": "Mexico City",
+      "team1": {
+        "key": "Czechia",
+        "name": "Chequia",
+        "flag": "🇨🇿"
+      },
+      "team2": {
+        "key": "Mexico",
+        "name": "Mexico",
+        "flag": "🇲🇽"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 54,
+      "matchday": 3,
+      "group": "A",
+      "kickoff_utc": "2026-06-25T01:00:00Z",
+      "city": "Guadalupe",
+      "team1": {
+        "key": "South Africa",
+        "name": "Sudafrica",
+        "flag": "🇿🇦"
+      },
+      "team2": {
+        "key": "South Korea",
+        "name": "Corea del Sur",
+        "flag": "🇰🇷"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 55,
+      "matchday": 3,
+      "group": "E",
+      "kickoff_utc": "2026-06-25T20:00:00Z",
+      "city": "New Jersey",
+      "team1": {
+        "key": "Ecuador",
+        "name": "Ecuador",
+        "flag": "🇪🇨"
+      },
+      "team2": {
+        "key": "Germany",
+        "name": "Alemania",
+        "flag": "🇩🇪"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 56,
+      "matchday": 3,
+      "group": "E",
+      "kickoff_utc": "2026-06-25T20:00:00Z",
+      "city": "Philadelphia",
+      "team1": {
+        "key": "Curacao",
+        "name": "Curazao",
+        "flag": "🇨🇼"
+      },
+      "team2": {
+        "key": "Ivory Coast",
+        "name": "Costa de Marfil",
+        "flag": "🇨🇮"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 57,
+      "matchday": 3,
+      "group": "F",
+      "kickoff_utc": "2026-06-25T23:00:00Z",
+      "city": "Dallas",
+      "team1": {
+        "key": "Japan",
+        "name": "Japon",
+        "flag": "🇯🇵"
+      },
+      "team2": {
+        "key": "Sweden",
+        "name": "Suecia",
+        "flag": "🇸🇪"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 58,
+      "matchday": 3,
+      "group": "F",
+      "kickoff_utc": "2026-06-25T23:00:00Z",
+      "city": "Kansas City",
+      "team1": {
+        "key": "Tunisia",
+        "name": "Tunez",
+        "flag": "🇹🇳"
+      },
+      "team2": {
+        "key": "Netherlands",
+        "name": "Paises Bajos",
+        "flag": "🇳🇱"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 59,
+      "matchday": 3,
+      "group": "D",
+      "kickoff_utc": "2026-06-26T02:00:00Z",
+      "city": "Los Angeles",
+      "team1": {
+        "key": "Turkiye",
+        "name": "Turquia",
+        "flag": "🇹🇷"
+      },
+      "team2": {
+        "key": "United States",
+        "name": "Estados Unidos",
+        "flag": "🇺🇸"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 60,
+      "matchday": 3,
+      "group": "D",
+      "kickoff_utc": "2026-06-26T02:00:00Z",
+      "city": "San Francisco",
+      "team1": {
+        "key": "Paraguay",
+        "name": "Paraguay",
+        "flag": "🇵🇾"
+      },
+      "team2": {
+        "key": "Australia",
+        "name": "Australia",
+        "flag": "🇦🇺"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 61,
+      "matchday": 3,
+      "group": "I",
+      "kickoff_utc": "2026-06-26T19:00:00Z",
+      "city": "Boston",
+      "team1": {
+        "key": "Norway",
+        "name": "Noruega",
+        "flag": "🇳🇴"
+      },
+      "team2": {
+        "key": "France",
+        "name": "Francia",
+        "flag": "🇫🇷"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 62,
+      "matchday": 3,
+      "group": "I",
+      "kickoff_utc": "2026-06-26T19:00:00Z",
+      "city": "Toronto",
+      "team1": {
+        "key": "Senegal",
+        "name": "Senegal",
+        "flag": "🇸🇳"
+      },
+      "team2": {
+        "key": "Iraq",
+        "name": "Irak",
+        "flag": "🇮🇶"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 63,
+      "matchday": 3,
+      "group": "H",
+      "kickoff_utc": "2026-06-27T00:00:00Z",
+      "city": "Houston",
+      "team1": {
+        "key": "Cape Verde",
+        "name": "Cabo Verde",
+        "flag": "🇨🇻"
+      },
+      "team2": {
+        "key": "Saudi Arabia",
+        "name": "Arabia Saudita",
+        "flag": "🇸🇦"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 64,
+      "matchday": 3,
+      "group": "H",
+      "kickoff_utc": "2026-06-27T00:00:00Z",
+      "city": "Zapopan",
+      "team1": {
+        "key": "Uruguay",
+        "name": "Uruguay",
+        "flag": "🇺🇾"
+      },
+      "team2": {
+        "key": "Spain",
+        "name": "Espana",
+        "flag": "🇪🇸"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 65,
+      "matchday": 3,
+      "group": "G",
+      "kickoff_utc": "2026-06-27T03:00:00Z",
+      "city": "Seattle",
+      "team1": {
+        "key": "Egypt",
+        "name": "Egipto",
+        "flag": "🇪🇬"
+      },
+      "team2": {
+        "key": "Iran",
+        "name": "Iran",
+        "flag": "🇮🇷"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 66,
+      "matchday": 3,
+      "group": "G",
+      "kickoff_utc": "2026-06-27T03:00:00Z",
+      "city": "Vancouver",
+      "team1": {
+        "key": "New Zealand",
+        "name": "Nueva Zelanda",
+        "flag": "🇳🇿"
+      },
+      "team2": {
+        "key": "Belgium",
+        "name": "Belgica",
+        "flag": "🇧🇪"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 67,
+      "matchday": 3,
+      "group": "L",
+      "kickoff_utc": "2026-06-27T21:00:00Z",
+      "city": "New Jersey",
+      "team1": {
+        "key": "Panama",
+        "name": "Panama",
+        "flag": "🇵🇦"
+      },
+      "team2": {
+        "key": "England",
+        "name": "Inglaterra",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 68,
+      "matchday": 3,
+      "group": "L",
+      "kickoff_utc": "2026-06-27T21:00:00Z",
+      "city": "Philadelphia",
+      "team1": {
+        "key": "Croatia",
+        "name": "Croacia",
+        "flag": "🇭🇷"
+      },
+      "team2": {
+        "key": "Ghana",
+        "name": "Ghana",
+        "flag": "🇬🇭"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 69,
+      "matchday": 3,
+      "group": "K",
+      "kickoff_utc": "2026-06-27T23:30:00Z",
+      "city": "Miami",
+      "team1": {
+        "key": "Colombia",
+        "name": "Colombia",
+        "flag": "🇨🇴"
+      },
+      "team2": {
+        "key": "Portugal",
+        "name": "Portugal",
+        "flag": "🇵🇹"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 70,
+      "matchday": 3,
+      "group": "K",
+      "kickoff_utc": "2026-06-27T23:30:00Z",
+      "city": "Atlanta",
+      "team1": {
+        "key": "DR Congo",
+        "name": "RD Congo",
+        "flag": "🇨🇩"
+      },
+      "team2": {
+        "key": "Uzbekistan",
+        "name": "Uzbekistan",
+        "flag": "🇺🇿"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 71,
+      "matchday": 3,
+      "group": "J",
+      "kickoff_utc": "2026-06-28T02:00:00Z",
+      "city": "Kansas City",
+      "team1": {
+        "key": "Algeria",
+        "name": "Argelia",
+        "flag": "🇩🇿"
+      },
+      "team2": {
+        "key": "Austria",
+        "name": "Austria",
+        "flag": "🇦🇹"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    },
+    {
+      "id": 72,
+      "matchday": 3,
+      "group": "J",
+      "kickoff_utc": "2026-06-28T02:00:00Z",
+      "city": "Dallas",
+      "team1": {
+        "key": "Jordan",
+        "name": "Jordania",
+        "flag": "🇯🇴"
+      },
+      "team2": {
+        "key": "Argentina",
+        "name": "Argentina",
+        "flag": "🇦🇷"
+      },
+      "score1": null,
+      "score2": null,
+      "status": "SCHEDULED"
+    }
+  ]
+}

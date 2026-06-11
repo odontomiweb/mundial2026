@@ -1,0 +1,54 @@
+{
+  "probabilidades": {
+    "A": [{"key": "Mexico", "pct": 51}, {"key": "South Korea", "pct": 21}, {"key": "Czechia", "pct": 21}, {"key": "South Africa", "pct": 7}],
+    "B": [{"key": "Switzerland", "pct": 55}, {"key": "Canada", "pct": 30}, {"key": "Bosnia and Herzegovina", "pct": 13}, {"key": "Qatar", "pct": 2}],
+    "C": [{"key": "Brazil", "pct": 74}, {"key": "Morocco", "pct": 18}, {"key": "Scotland", "pct": 7}, {"key": "Haiti", "pct": 1}],
+    "D": [{"key": "United States", "pct": 39}, {"key": "Turkiye", "pct": 35}, {"key": "Paraguay", "pct": 18}, {"key": "Australia", "pct": 8}],
+    "E": [{"key": "Germany", "pct": 67}, {"key": "Ecuador", "pct": 20}, {"key": "Ivory Coast", "pct": 12}, {"key": "Curacao", "pct": 1}],
+    "F": [{"key": "Netherlands", "pct": 55}, {"key": "Japan", "pct": 25}, {"key": "Sweden", "pct": 14}, {"key": "Tunisia", "pct": 6}],
+    "G": [{"key": "Belgium", "pct": 67}, {"key": "Egypt", "pct": 19}, {"key": "Iran", "pct": 11}, {"key": "New Zealand", "pct": 3}],
+    "H": [{"key": "Spain", "pct": 78}, {"key": "Uruguay", "pct": 18}, {"key": "Saudi Arabia", "pct": 3}, {"key": "Cape Verde", "pct": 1}],
+    "I": [{"key": "France", "pct": 67}, {"key": "Norway", "pct": 22}, {"key": "Senegal", "pct": 10}, {"key": "Iraq", "pct": 1}],
+    "J": [{"key": "Argentina", "pct": 72}, {"key": "Austria", "pct": 19}, {"key": "Algeria", "pct": 8}, {"key": "Jordan", "pct": 1}],
+    "K": [{"key": "Portugal", "pct": 64}, {"key": "Colombia", "pct": 28}, {"key": "DR Congo", "pct": 5}, {"key": "Uzbekistan", "pct": 3}],
+    "L": [{"key": "England", "pct": 70}, {"key": "Croatia", "pct": 22}, {"key": "Ghana", "pct": 6}, {"key": "Panama", "pct": 2}]
+  },
+  "comentarios": {
+    "A": "Mexico (51%) manda de local en el Azteca. Corea y Chequia empatan en chances (21%) por el 2do cupo.",
+    "B": "Suiza (55%) la mas solida; Canada (30%) de local tiene chance real de avanzar.",
+    "C": "Brasil (74%) clarisimo favorito. Marruecos, 2do candidato; Escocia y Haiti muy abajo.",
+    "D": "El grupo mas parejo arriba: EE.UU. (39%) y Turquia (35%) casi iguales. Paraguay (18%) acecha.",
+    "E": "Alemania (67%) firme. Ecuador (20%) es la apuesta sudamericana para el 2do lugar.",
+    "F": "Paises Bajos (55%) arriba; Japon (25%) viene muy bien y puede dar el golpe.",
+    "G": "Belgica (67%) con experiencia. Egipto (19%) con Salah pelea el 2do cupo.",
+    "H": "Espana (78%) la mas favorita de todos los grupos. Uruguay (18%), claro 2do candidato.",
+    "I": "Francia (67%), gran candidata al titulo. Ojo: Noruega (22%) por sobre Senegal (10%) para el 2do.",
+    "J": "Argentina (72%), campeona vigente y dominadora del grupo. Austria (19%), 2da opcion.",
+    "K": "Portugal (64%) arriba, pero Colombia (28%) llega con gran momento y pelea de igual a igual.",
+    "L": "Inglaterra (70%) favorita. Croacia (22%), siempre competitiva, va por el 2do."
+  },
+  "apuntes": {
+    "A": "imagenes/notas_A.png", "B": "imagenes/notas_B.png", "C": "imagenes/notas_C.png",
+    "D": "imagenes/notas_D.png", "E": "imagenes/notas_E.png", "F": "imagenes/notas_F.png",
+    "G": "imagenes/notas_G.png", "H": "imagenes/notas_H.png", "I": "imagenes/notas_I.png",
+    "J": "imagenes/notas_J.png", "K": "imagenes/notas_K.png", "L": "imagenes/notas_L.png"
+  },
+  "prob_img": {
+    "A": "imagenes/prob_A.png", "B": "imagenes/prob_B.png", "C": "imagenes/prob_C.png",
+    "D": "imagenes/prob_D.png", "E": "imagenes/prob_E.png", "F": "imagenes/prob_F.png",
+    "G": "imagenes/prob_G.png", "H": "imagenes/prob_H.png", "I": "imagenes/prob_I.png",
+    "J": "imagenes/prob_J.png", "K": "imagenes/prob_K.png", "L": "imagenes/prob_L.png"
+  },
+  "curiosidades": [
+    "Es el primer Mundial con 48 selecciones: 12 grupos de 4. Pasan los 2 primeros de cada grupo mas los 8 mejores terceros (32 a octavos).",
+    "Es el primer Mundial organizado por 3 paises a la vez: Estados Unidos, Mexico y Canada.",
+    "El partido inaugural se juega en el mitico Estadio Azteca de Ciudad de Mexico, que se convierte en el primer estadio en albergar partidos de 3 Mundiales (1970, 1986 y 2026).",
+    "Sera el Mundial mas grande de la historia: 104 partidos en total (antes eran 64).",
+    "Argentina llega como campeona vigente del Mundial de Qatar 2022.",
+    "Chile no clasifico, pero hay 6 vecinos sudamericanos en disputa: Argentina, Brasil, Uruguay, Colombia, Ecuador y Paraguay.",
+    "Segun las probabilidades, las 3 favoritas mas claras de su grupo son Espana (78%), Brasil (74%) y Argentina (72%)."
+  ],
+  "notas": [
+    "Aqui van tus comentarios y tips personales. Dile a Claude lo que quieres anotar y lo agrega a esta lista."
+  ]
+}
