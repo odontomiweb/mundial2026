@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-11T20:13:53Z",
+  "updated_utc": "2026-06-11T23:17:37Z",
   "matches": [
     {
       "id": 1,
@@ -17,9 +17,9 @@
         "name": "Sudáfrica",
         "flag": "🇿🇦"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 2,
+      "score2": 0,
+      "status": "FINISHED"
     },
     {
       "id": 2,
