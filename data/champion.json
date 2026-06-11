@@ -1,0 +1,21 @@
+{
+  "actualizado": "10 de junio de 2026",
+  "fuente": "Promedio de casas de apuestas (probabilidad implícita, aprox.)",
+  "nota": "Son probabilidades estimadas a partir de las cuotas. No suman 100% exacto por el margen de las casas.",
+  "lista": [
+    { "key": "Spain",         "pct": 18, "justificacion": "Campeona de Europa, el equipo más en forma y con la mejor base colectiva." },
+    { "key": "France",        "pct": 17, "justificacion": "Plantel descomunal y Mbappé en su pico; siempre llega lejos." },
+    { "key": "England",       "pct": 13, "justificacion": "Talento de sobra (Bellingham, Kane); busca cortar su sequía." },
+    { "key": "Brazil",        "pct": 11, "justificacion": "Pólvora ofensiva y la historia de cinco estrellas que pesa." },
+    { "key": "Portugal",      "pct": 11, "justificacion": "Gran nivel individual y experiencia; candidata seria." },
+    { "key": "Argentina",     "pct": 10, "justificacion": "Campeona vigente; nunca se descarta con Messi y compañía." },
+    { "key": "Germany",       "pct": 7,  "justificacion": "Gigante histórico que volvió a ordenarse a tiempo." },
+    { "key": "Netherlands",   "pct": 5,  "justificacion": "Equilibrada y fiable; la candidata silenciosa." },
+    { "key": "Belgium",       "pct": 3,  "justificacion": "La jerarquía de De Bruyne en su última gran cita." },
+    { "key": "Norway",        "pct": 3,  "justificacion": "Haaland y Ødegaard ilusionan en su regreso a un Mundial." },
+    { "key": "Colombia",      "pct": 2,  "justificacion": "Vive un gran momento y es un rival durísimo para cualquiera." },
+    { "key": "Morocco",       "pct": 2,  "justificacion": "Tras el 4º puesto de 2022, ya nadie la subestima." },
+    { "key": "Japan",         "pct": 2,  "justificacion": "Moderna y veloz; la mejor de Asia." },
+    { "key": "United States", "pct": 2,  "justificacion": "Local y con plantel europeo; sueña en casa." }
+  ]
+}

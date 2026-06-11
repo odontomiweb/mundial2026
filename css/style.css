@@ -155,6 +155,60 @@ table.standings .pts { font-weight: 800; color: var(--gold); }
 .lightbox img { max-width: 100%; max-height: 92vh; border-radius: 10px; }
 .lightbox-close { position: fixed; top: 14px; right: 22px; color: #fff; font-size: 2.4rem; cursor: pointer; line-height: 1; }
 
+/* ---------- Detalle desplegable del partido ---------- */
+.hint { font-size: .8rem; color: var(--muted); margin-bottom: 12px; }
+.match-d { margin-bottom: 10px; }
+.match-d > summary { margin-bottom: 0; list-style: none; cursor: pointer; }
+.match-d > summary::-webkit-details-marker { display: none; }
+.match-d[open] > summary { border-bottom-left-radius: 0; border-bottom-right-radius: 0; border-bottom: 0; }
+.detail {
+  background: var(--card2); border: 1px solid var(--line); border-top: 0;
+  border-radius: 0 0 14px 14px; padding: 14px;
+}
+.winprob { margin-bottom: 14px; }
+.wp-lbl { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 7px; }
+.wp-bar { display: flex; height: 18px; border-radius: 999px; overflow: hidden; background: var(--bg2); }
+.wp-seg.s1 { background: linear-gradient(90deg,#00d4a0,#36c0ff); }
+.wp-seg.sd { background: #56607e; }
+.wp-seg.s2 { background: linear-gradient(90deg,#ff7a59,#ff4d6d); }
+.wp-legend { display: flex; justify-content: space-between; gap: 6px; flex-wrap: wrap; font-size: .72rem; color: var(--muted); margin-top: 6px; }
+.wp-legend .dot { display: inline-block; width: 9px; height: 9px; border-radius: 3px; margin-right: 3px; vertical-align: middle; }
+.dot.s1 { background: #00d4a0; } .dot.sd { background: #56607e; } .dot.s2 { background: #ff4d6d; }
+
+.tm-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.tm { background: var(--bg2); border-radius: 10px; padding: 10px; }
+.tm-head { font-size: .92rem; margin-bottom: 6px; }
+.tm-row { font-size: .76rem; color: var(--muted); margin-top: 3px; }
+.tm-row b { color: var(--text); }
+.tm-note { font-size: .74rem; color: var(--muted); margin-top: 7px; font-style: italic; line-height: 1.35; }
+.tm-row.forma { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+.forma-dot { display: inline-grid; place-items: center; width: 17px; height: 17px; border-radius: 4px; font-size: .6rem; font-weight: 800; color: #042; }
+.forma-dot.g { background: #00d4a0; } .forma-dot.e { background: #ffcc4d; } .forma-dot.p { background: #ff4d6d; color: #fff; }
+.forma-empty { font-size: .74rem; color: var(--muted); }
+
+/* ---------- Bracket ---------- */
+.bracket-scroll { overflow-x: auto; padding-bottom: 12px; -webkit-overflow-scrolling: touch; }
+.bracket { display: flex; gap: 14px; min-width: max-content; }
+.bround { min-width: 168px; }
+.bround-h { font-size: .72rem; font-weight: 800; color: var(--gold); text-transform: uppercase; letter-spacing: .5px; margin-bottom: 10px; text-align: center; }
+.bround-h span { display: block; color: var(--muted); font-weight: 600; font-size: .62rem; letter-spacing: 0; margin-top: 2px; }
+.bmatch { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 8px; margin-bottom: 10px; }
+.brow { display: flex; align-items: center; min-height: 22px; }
+.bvs { text-align: center; font-size: .6rem; color: var(--muted); margin: 2px 0; }
+.bteam { font-size: .8rem; font-weight: 700; display: flex; align-items: center; gap: 5px; }
+.bflag { font-size: 1.1rem; }
+.bslot { font-size: .72rem; color: var(--muted); }
+
+/* ---------- Favoritos al título (campeón) ---------- */
+.src { font-size: .68rem; color: var(--muted); margin: 4px 0 10px; }
+.champ-row { margin-bottom: 12px; }
+.champ-top { display: flex; justify-content: space-between; align-items: baseline; }
+.champ-name { font-weight: 700; font-size: .9rem; }
+.champ-pct { font-weight: 800; color: var(--gold); }
+.champ-bar-bg { background: var(--bg2); border-radius: 999px; height: 10px; overflow: hidden; margin: 5px 0; }
+.champ-bar { display: block; height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--gold), #ff9f43); }
+.champ-just { font-size: .76rem; color: var(--muted); line-height: 1.35; }
+
 footer { text-align: center; padding: 24px 16px 40px; color: var(--muted); font-size: .76rem; }
 footer .credit { margin-top: 4px; opacity: .8; }
 

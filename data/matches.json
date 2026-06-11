@@ -9,12 +9,12 @@
       "city": "Mexico City",
       "team1": {
         "key": "Mexico",
-        "name": "Mexico",
+        "name": "México",
         "flag": "🇲🇽"
       },
       "team2": {
         "key": "South Africa",
-        "name": "Sudafrica",
+        "name": "Sudáfrica",
         "flag": "🇿🇦"
       },
       "score1": null,
@@ -49,7 +49,7 @@
       "city": "Toronto",
       "team1": {
         "key": "Canada",
-        "name": "Canada",
+        "name": "Canadá",
         "flag": "🇨🇦"
       },
       "team2": {
@@ -129,7 +129,7 @@
       "city": "Boston",
       "team1": {
         "key": "Haiti",
-        "name": "Haiti",
+        "name": "Haití",
         "flag": "🇭🇹"
       },
       "team2": {
@@ -154,7 +154,7 @@
       },
       "team2": {
         "key": "Turkiye",
-        "name": "Turquia",
+        "name": "Turquía",
         "flag": "🇹🇷"
       },
       "score1": null,
@@ -189,12 +189,12 @@
       "city": "Dallas",
       "team1": {
         "key": "Netherlands",
-        "name": "Paises Bajos",
+        "name": "Países Bajos",
         "flag": "🇳🇱"
       },
       "team2": {
         "key": "Japan",
-        "name": "Japon",
+        "name": "Japón",
         "flag": "🇯🇵"
       },
       "score1": null,
@@ -234,7 +234,7 @@
       },
       "team2": {
         "key": "Tunisia",
-        "name": "Tunez",
+        "name": "Túnez",
         "flag": "🇹🇳"
       },
       "score1": null,
@@ -249,7 +249,7 @@
       "city": "Atlanta",
       "team1": {
         "key": "Spain",
-        "name": "Espana",
+        "name": "España",
         "flag": "🇪🇸"
       },
       "team2": {
@@ -269,7 +269,7 @@
       "city": "Vancouver",
       "team1": {
         "key": "Belgium",
-        "name": "Belgica",
+        "name": "Bélgica",
         "flag": "🇧🇪"
       },
       "team2": {
@@ -309,7 +309,7 @@
       "city": "Los Angeles",
       "team1": {
         "key": "Iran",
-        "name": "Iran",
+        "name": "Irán",
         "flag": "🇮🇷"
       },
       "team2": {
@@ -454,7 +454,7 @@
       },
       "team2": {
         "key": "Panama",
-        "name": "Panama",
+        "name": "Panamá",
         "flag": "🇵🇦"
       },
       "score1": null,
@@ -469,7 +469,7 @@
       "city": "Mexico City",
       "team1": {
         "key": "Uzbekistan",
-        "name": "Uzbekistan",
+        "name": "Uzbekistán",
         "flag": "🇺🇿"
       },
       "team2": {
@@ -494,7 +494,7 @@
       },
       "team2": {
         "key": "South Africa",
-        "name": "Sudafrica",
+        "name": "Sudáfrica",
         "flag": "🇿🇦"
       },
       "score1": null,
@@ -529,7 +529,7 @@
       "city": "Vancouver",
       "team1": {
         "key": "Canada",
-        "name": "Canada",
+        "name": "Canadá",
         "flag": "🇨🇦"
       },
       "team2": {
@@ -549,7 +549,7 @@
       "city": "Zapopan",
       "team1": {
         "key": "Mexico",
-        "name": "Mexico",
+        "name": "México",
         "flag": "🇲🇽"
       },
       "team2": {
@@ -614,7 +614,7 @@
       },
       "team2": {
         "key": "Haiti",
-        "name": "Haiti",
+        "name": "Haití",
         "flag": "🇭🇹"
       },
       "score1": null,
@@ -629,7 +629,7 @@
       "city": "San Francisco",
       "team1": {
         "key": "Turkiye",
-        "name": "Turquia",
+        "name": "Turquía",
         "flag": "🇹🇷"
       },
       "team2": {
@@ -649,7 +649,7 @@
       "city": "Houston",
       "team1": {
         "key": "Netherlands",
-        "name": "Paises Bajos",
+        "name": "Países Bajos",
         "flag": "🇳🇱"
       },
       "team2": {
@@ -709,12 +709,12 @@
       "city": "Guadalupe",
       "team1": {
         "key": "Tunisia",
-        "name": "Tunez",
+        "name": "Túnez",
         "flag": "🇹🇳"
       },
       "team2": {
         "key": "Japan",
-        "name": "Japon",
+        "name": "Japón",
         "flag": "🇯🇵"
       },
       "score1": null,
@@ -729,7 +729,7 @@
       "city": "Atlanta",
       "team1": {
         "key": "Spain",
-        "name": "Espana",
+        "name": "España",
         "flag": "🇪🇸"
       },
       "team2": {
@@ -749,12 +749,12 @@
       "city": "Los Angeles",
       "team1": {
         "key": "Belgium",
-        "name": "Belgica",
+        "name": "Bélgica",
         "flag": "🇧🇪"
       },
       "team2": {
         "key": "Iran",
-        "name": "Iran",
+        "name": "Irán",
         "flag": "🇮🇷"
       },
       "score1": null,
@@ -894,7 +894,7 @@
       },
       "team2": {
         "key": "Uzbekistan",
-        "name": "Uzbekistan",
+        "name": "Uzbekistán",
         "flag": "🇺🇿"
       },
       "score1": null,
@@ -929,7 +929,7 @@
       "city": "Toronto",
       "team1": {
         "key": "Panama",
-        "name": "Panama",
+        "name": "Panamá",
         "flag": "🇵🇦"
       },
       "team2": {
@@ -974,7 +974,7 @@
       },
       "team2": {
         "key": "Canada",
-        "name": "Canada",
+        "name": "Canadá",
         "flag": "🇨🇦"
       },
       "score1": null,
@@ -1034,7 +1034,7 @@
       },
       "team2": {
         "key": "Haiti",
-        "name": "Haiti",
+        "name": "Haití",
         "flag": "🇭🇹"
       },
       "score1": null,
@@ -1054,7 +1054,7 @@
       },
       "team2": {
         "key": "Mexico",
-        "name": "Mexico",
+        "name": "México",
         "flag": "🇲🇽"
       },
       "score1": null,
@@ -1069,7 +1069,7 @@
       "city": "Guadalupe",
       "team1": {
         "key": "South Africa",
-        "name": "Sudafrica",
+        "name": "Sudáfrica",
         "flag": "🇿🇦"
       },
       "team2": {
@@ -1129,7 +1129,7 @@
       "city": "Dallas",
       "team1": {
         "key": "Japan",
-        "name": "Japon",
+        "name": "Japón",
         "flag": "🇯🇵"
       },
       "team2": {
@@ -1149,12 +1149,12 @@
       "city": "Kansas City",
       "team1": {
         "key": "Tunisia",
-        "name": "Tunez",
+        "name": "Túnez",
         "flag": "🇹🇳"
       },
       "team2": {
         "key": "Netherlands",
-        "name": "Paises Bajos",
+        "name": "Países Bajos",
         "flag": "🇳🇱"
       },
       "score1": null,
@@ -1169,7 +1169,7 @@
       "city": "Los Angeles",
       "team1": {
         "key": "Turkiye",
-        "name": "Turquia",
+        "name": "Turquía",
         "flag": "🇹🇷"
       },
       "team2": {
@@ -1274,7 +1274,7 @@
       },
       "team2": {
         "key": "Spain",
-        "name": "Espana",
+        "name": "España",
         "flag": "🇪🇸"
       },
       "score1": null,
@@ -1294,7 +1294,7 @@
       },
       "team2": {
         "key": "Iran",
-        "name": "Iran",
+        "name": "Irán",
         "flag": "🇮🇷"
       },
       "score1": null,
@@ -1314,7 +1314,7 @@
       },
       "team2": {
         "key": "Belgium",
-        "name": "Belgica",
+        "name": "Bélgica",
         "flag": "🇧🇪"
       },
       "score1": null,
@@ -1329,7 +1329,7 @@
       "city": "New Jersey",
       "team1": {
         "key": "Panama",
-        "name": "Panama",
+        "name": "Panamá",
         "flag": "🇵🇦"
       },
       "team2": {
@@ -1394,7 +1394,7 @@
       },
       "team2": {
         "key": "Uzbekistan",
-        "name": "Uzbekistan",
+        "name": "Uzbekistán",
         "flag": "🇺🇿"
       },
       "score1": null,
