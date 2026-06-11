@@ -1,5 +1,5 @@
 {
-  "updated_utc": null,
+  "updated_utc": "2026-06-11T15:11:41Z",
   "matches": [
     {
       "id": 1,
@@ -145,7 +145,7 @@
       "id": 8,
       "matchday": 1,
       "group": "D",
-      "kickoff_utc": "2026-06-14T01:00:00Z",
+      "kickoff_utc": "2026-06-14T04:00:00Z",
       "city": "Vancouver",
       "team1": {
         "key": "Australia",
@@ -625,7 +625,7 @@
       "id": 32,
       "matchday": 2,
       "group": "D",
-      "kickoff_utc": "2026-06-20T04:00:00Z",
+      "kickoff_utc": "2026-06-20T03:00:00Z",
       "city": "San Francisco",
       "team1": {
         "key": "Turkiye",

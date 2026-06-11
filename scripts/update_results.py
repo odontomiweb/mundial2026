@@ -28,7 +28,7 @@ ALIASES = {
     "czechrepublic": "Czechia",
     "korearepublic": "South Korea", "republicofkorea": "South Korea",
     "ivorycoast": "Ivory Coast", "cotedivoire": "Ivory Coast",
-    "caboverde": "Cape Verde",
+    "caboverde": "Cape Verde", "capeverdeislands": "Cape Verde",
     "drcongo": "DR Congo", "congodr": "DR Congo",
     "democraticrepublicofcongo": "DR Congo", "congodemocraticrepublic": "DR Congo",
     "bosniaherzegovina": "Bosnia and Herzegovina", "bosnia": "Bosnia and Herzegovina",

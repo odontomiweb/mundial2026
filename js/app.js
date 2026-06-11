@@ -6,6 +6,27 @@
 
 let DATA = { groups: {}, matches: [], tips: {}, teams: {}, champion: {}, bracket: {}, updated: null };
 
+// ---- banderas como imagen (Windows no dibuja los emoji de banderas) ----
+const CODES = {
+  "Mexico": "mx", "South Africa": "za", "South Korea": "kr", "Czechia": "cz",
+  "Canada": "ca", "Bosnia and Herzegovina": "ba", "Qatar": "qa", "Switzerland": "ch",
+  "Brazil": "br", "Morocco": "ma", "Haiti": "ht", "Scotland": "gb-sct",
+  "United States": "us", "Paraguay": "py", "Australia": "au", "Turkiye": "tr",
+  "Germany": "de", "Curacao": "cw", "Ivory Coast": "ci", "Ecuador": "ec",
+  "Netherlands": "nl", "Japan": "jp", "Sweden": "se", "Tunisia": "tn",
+  "Belgium": "be", "Egypt": "eg", "Iran": "ir", "New Zealand": "nz",
+  "Spain": "es", "Cape Verde": "cv", "Saudi Arabia": "sa", "Uruguay": "uy",
+  "France": "fr", "Senegal": "sn", "Iraq": "iq", "Norway": "no",
+  "Argentina": "ar", "Algeria": "dz", "Austria": "at", "Jordan": "jo",
+  "Portugal": "pt", "DR Congo": "cd", "Uzbekistan": "uz", "Colombia": "co",
+  "England": "gb-eng", "Croatia": "hr", "Ghana": "gh", "Panama": "pa",
+};
+function flagImg(key) {
+  const c = CODES[key];
+  if (!c) return "";
+  return `<img class="flag-img" src="https://flagcdn.com/32x24/${c}.png" srcset="https://flagcdn.com/64x48/${c}.png 2x" alt="" loading="lazy">`;
+}
+
 // ---- utilidades de fecha (hora local del visitante) ----
 function dObj(m) { return new Date(m.kickoff_utc); }
 function localDateKey(d) { return d.toLocaleDateString("en-CA"); }
@@ -60,7 +81,7 @@ function teamMini(t) {
   const info = DATA.teams[t.key] || {};
   return `
   <div class="tm">
-    <div class="tm-head">${t.flag} <b>${t.name}</b></div>
+    <div class="tm-head">${flagImg(t.key)} <b>${t.name}</b></div>
     <div class="tm-row">🌐 Ranking FIFA: <b>#${info.rank ?? "?"}</b></div>
     <div class="tm-row">⭐ Figura: <b>${info.figura ?? "—"}</b></div>
     <div class="tm-row forma">📈 Forma: ${formaHtml(t.key)}</div>
@@ -114,7 +135,7 @@ function matchCard(m) {
   <details class="match-d">
     <summary class="match">
       <div class="side ${w1 ? "winner" : ""}">
-        <span class="flag">${m.team1.flag}</span>
+        <span class="flag">${flagImg(m.team1.key)}</span>
         <span class="tname">${m.team1.name}</span>
       </div>
       <div class="mid">
@@ -123,7 +144,7 @@ function matchCard(m) {
         <div class="meta">📍 ${m.city} · ver datos ▾</div>
       </div>
       <div class="side right ${w2 ? "winner" : ""}">
-        <span class="flag">${m.team2.flag}</span>
+        <span class="flag">${flagImg(m.team2.key)}</span>
         <span class="tname">${m.team2.name}</span>
       </div>
     </summary>
@@ -230,7 +251,7 @@ function renderGrupos() {
         ${rows.map((t, i) => `
           <tr class="${i < 2 ? "qualify" : ""}">
             <td class="pos">${i + 1}</td>
-            <td class="team">${t.flag} ${t.name}</td>
+            <td class="team">${flagImg(t.key)} ${t.name}</td>
             <td>${t.pj}</td><td>${t.g}</td><td>${t.e}</td><td>${t.p}</td>
             <td>${t.gf}</td><td>${t.gc}</td><td>${t.gf - t.gc >= 0 ? "+" : ""}${t.gf - t.gc}</td>
             <td class="pts">${t.pts}</td>
@@ -243,7 +264,7 @@ function renderGrupos() {
       for (const p of prob) {
         const t = nameOf(p.key);
         html += `<div class="prob-row">
-          <span class="pteam">${t.flag} ${t.name}</span>
+          <span class="pteam">${flagImg(p.key)} ${t.name}</span>
           <span class="prob-bar-bg"><span class="prob-bar" style="width:${p.pct}%"></span></span>
           <span class="ppct">${p.pct}%</span>
         </div>`;
@@ -272,7 +293,7 @@ function resolveSlot(code) {
     const pos = +m[1], grp = m[2];
     if (groupFinished(grp)) {
       const t = computeStandings(grp)[pos - 1];
-      if (t) return { flag: t.flag, name: t.name, real: true };
+      if (t) return { key: t.key, name: t.name, real: true };
     }
     return { label: `${pos}º Grupo ${grp}` };
   }
@@ -286,7 +307,7 @@ function resolveSlot(code) {
 }
 function slotHtml(code) {
   const r = resolveSlot(code);
-  if (r.real) return `<span class="bteam"><span class="bflag">${r.flag}</span>${r.name}</span>`;
+  if (r.real) return `<span class="bteam">${flagImg(r.key)}${r.name}</span>`;
   return `<span class="bslot">${r.label}</span>`;
 }
 function renderBracket() {
@@ -327,10 +348,10 @@ function renderTips() {
       <p class="src">${champ.fuente || ""} · ${champ.actualizado || ""}</p>`;
     const max = Math.max(...lista.map((x) => x.pct));
     for (const c of lista) {
-      const t = teamByKey(c.key) || { flag: "", name: c.key };
+      const t = teamByKey(c.key) || { name: c.key };
       html += `<div class="champ-row">
         <div class="champ-top">
-          <span class="champ-name">${t.flag} ${t.name}</span>
+          <span class="champ-name">${flagImg(c.key)} ${t.name}</span>
           <span class="champ-pct">${c.pct}%</span>
         </div>
         <div class="champ-bar-bg"><span class="champ-bar" style="width:${(c.pct / max) * 100}%"></span></div>

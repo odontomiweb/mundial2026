@@ -73,7 +73,15 @@ h3.day-title {
 }
 .match .side { display: flex; align-items: center; gap: 8px; min-width: 0; }
 .match .side.right { flex-direction: row-reverse; text-align: right; }
-.match .flag { font-size: 1.5rem; line-height: 1; }
+.match .flag { line-height: 1; }
+.flag-img {
+  width: 24px; height: 18px; border-radius: 3px; object-fit: cover;
+  vertical-align: middle; box-shadow: 0 0 0 1px rgba(255,255,255,.12);
+}
+.match .flag .flag-img { width: 30px; height: 22px; }
+table.standings .flag-img { width: 22px; height: 16px; margin-right: 2px; }
+.pteam .flag-img, .champ-name .flag-img, .tm-head .flag-img { margin-right: 4px; }
+.bteam .flag-img { width: 20px; height: 15px; }
 .match .tname { font-weight: 600; font-size: .95rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .match .mid { text-align: center; min-width: 86px; }
 .match .score { font-size: 1.35rem; font-weight: 800; letter-spacing: 1px; }
