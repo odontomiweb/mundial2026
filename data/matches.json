@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-12T23:12:08Z",
+  "updated_utc": "2026-06-13T02:50:36Z",
   "matches": [
     {
       "id": 1,
@@ -77,9 +77,9 @@
         "name": "Paraguay",
         "flag": "🇵🇾"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 3,
+      "score2": 1,
+      "status": "IN_PLAY"
     },
     {
       "id": 5,
