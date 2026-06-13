@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-13T19:16:58Z",
+  "updated_utc": "2026-06-13T21:08:51Z",
   "matches": [
     {
       "id": 1,
@@ -97,8 +97,8 @@
         "name": "Suiza",
         "flag": "🇨🇭"
       },
-      "score1": 0,
-      "score2": 0,
+      "score1": 1,
+      "score2": 1,
       "status": "IN_PLAY"
     },
     {
