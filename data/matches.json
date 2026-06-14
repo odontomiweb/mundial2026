@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-14T17:14:38Z",
+  "updated_utc": "2026-06-14T19:17:14Z",
   "matches": [
     {
       "id": 1,
@@ -177,9 +177,9 @@
         "name": "Curazao",
         "flag": "🇨🇼"
       },
-      "score1": 1,
-      "score2": 0,
-      "status": "IN_PLAY"
+      "score1": 7,
+      "score2": 1,
+      "status": "FINISHED"
     },
     {
       "id": 10,
