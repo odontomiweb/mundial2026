@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-14T03:26:44Z",
+  "updated_utc": "2026-06-14T08:11:30Z",
   "matches": [
     {
       "id": 1,
@@ -157,9 +157,9 @@
         "name": "Turquía",
         "flag": "🇹🇷"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 2,
+      "score2": 0,
+      "status": "FINISHED"
     },
     {
       "id": 9,
