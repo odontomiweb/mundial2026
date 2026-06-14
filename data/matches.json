@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-14T21:04:59Z",
+  "updated_utc": "2026-06-14T23:03:18Z",
   "matches": [
     {
       "id": 1,
@@ -197,9 +197,9 @@
         "name": "Japón",
         "flag": "🇯🇵"
       },
-      "score1": 0,
-      "score2": 0,
-      "status": "IN_PLAY"
+      "score1": 2,
+      "score2": 2,
+      "status": "FINISHED"
     },
     {
       "id": 11,
