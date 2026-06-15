@@ -131,6 +131,11 @@ function matchCard(m) {
   if (live) badge = `<span class="badge live">● En vivo</span>`;
   else if (fin) badge = `<span class="badge fin">Final · Grupo ${m.group}</span>`;
 
+  const lugar = m.stadium ? `${m.stadium} · ${m.city}` : m.city;
+  const canalLine = (m.canales && m.canales.length)
+    ? `<div class="meta canal">📺 ${m.canales.map((c) => `<span class="chip">${c}</span>`).join("")}</div>`
+    : "";
+
   return `
   <details class="match-d">
     <summary class="match">
@@ -141,7 +146,9 @@ function matchCard(m) {
       <div class="mid">
         ${mid}
         <div>${badge}</div>
-        <div class="meta">📍 ${m.city} · ver datos ▾</div>
+        <div class="meta">🏟️ ${lugar}</div>
+        ${canalLine}
+        <div class="meta dim">ver datos ▾</div>
       </div>
       <div class="side right ${w2 ? "winner" : ""}">
         <span class="flag">${flagImg(m.team2.key)}</span>

@@ -7,6 +7,12 @@
       "group": "A",
       "kickoff_utc": "2026-06-11T19:00:00Z",
       "city": "Mexico City",
+      "stadium": "Estadio Azteca",
+      "canales": [
+        "DSports",
+        "Chilevisión",
+        "Disney+"
+      ],
       "team1": {
         "key": "Mexico",
         "name": "México",
@@ -27,6 +33,10 @@
       "group": "A",
       "kickoff_utc": "2026-06-12T02:00:00Z",
       "city": "Zapopan",
+      "stadium": "Estadio Akron",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "South Korea",
         "name": "Corea del Sur",
@@ -47,6 +57,11 @@
       "group": "B",
       "kickoff_utc": "2026-06-12T19:00:00Z",
       "city": "Toronto",
+      "stadium": "BMO Field",
+      "canales": [
+        "DSports",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Canada",
         "name": "Canadá",
@@ -67,6 +82,12 @@
       "group": "D",
       "kickoff_utc": "2026-06-13T01:00:00Z",
       "city": "Los Angeles",
+      "stadium": "SoFi Stadium",
+      "canales": [
+        "DSports",
+        "Chilevisión",
+        "Disney+"
+      ],
       "team1": {
         "key": "United States",
         "name": "Estados Unidos",
@@ -87,6 +108,11 @@
       "group": "B",
       "kickoff_utc": "2026-06-13T19:00:00Z",
       "city": "San Francisco",
+      "stadium": "Levi's Stadium",
+      "canales": [
+        "DSports",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Qatar",
         "name": "Catar",
@@ -107,6 +133,12 @@
       "group": "C",
       "kickoff_utc": "2026-06-13T22:00:00Z",
       "city": "New Jersey",
+      "stadium": "MetLife Stadium",
+      "canales": [
+        "DSports",
+        "Chilevisión",
+        "Disney+"
+      ],
       "team1": {
         "key": "Brazil",
         "name": "Brasil",
@@ -127,6 +159,10 @@
       "group": "C",
       "kickoff_utc": "2026-06-14T01:00:00Z",
       "city": "Boston",
+      "stadium": "Gillette Stadium",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Haiti",
         "name": "Haití",
@@ -147,6 +183,10 @@
       "group": "D",
       "kickoff_utc": "2026-06-14T04:00:00Z",
       "city": "Vancouver",
+      "stadium": "BC Place",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Australia",
         "name": "Australia",
@@ -167,6 +207,10 @@
       "group": "E",
       "kickoff_utc": "2026-06-14T17:00:00Z",
       "city": "Houston",
+      "stadium": "NRG Stadium",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Germany",
         "name": "Alemania",
@@ -187,6 +231,11 @@
       "group": "F",
       "kickoff_utc": "2026-06-14T20:00:00Z",
       "city": "Dallas",
+      "stadium": "AT&T Stadium",
+      "canales": [
+        "DSports 2",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Netherlands",
         "name": "Países Bajos",
@@ -207,6 +256,12 @@
       "group": "E",
       "kickoff_utc": "2026-06-14T23:00:00Z",
       "city": "Philadelphia",
+      "stadium": "Lincoln Financial Field",
+      "canales": [
+        "DSports",
+        "Chilevisión",
+        "Disney+"
+      ],
       "team1": {
         "key": "Ivory Coast",
         "name": "Costa de Marfil",
@@ -227,6 +282,10 @@
       "group": "F",
       "kickoff_utc": "2026-06-15T02:00:00Z",
       "city": "Guadalupe",
+      "stadium": "Estadio Monterrey (BBVA)",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Sweden",
         "name": "Suecia",
@@ -247,6 +306,10 @@
       "group": "H",
       "kickoff_utc": "2026-06-15T16:00:00Z",
       "city": "Atlanta",
+      "stadium": "Mercedes-Benz Stadium",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Spain",
         "name": "España",
@@ -267,6 +330,11 @@
       "group": "G",
       "kickoff_utc": "2026-06-15T19:00:00Z",
       "city": "Vancouver",
+      "stadium": "BC Place",
+      "canales": [
+        "DSports 2",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Belgium",
         "name": "Bélgica",
@@ -287,6 +355,11 @@
       "group": "H",
       "kickoff_utc": "2026-06-15T22:00:00Z",
       "city": "Miami",
+      "stadium": "Hard Rock Stadium",
+      "canales": [
+        "DSports",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Saudi Arabia",
         "name": "Arabia Saudita",
@@ -307,6 +380,10 @@
       "group": "G",
       "kickoff_utc": "2026-06-16T01:00:00Z",
       "city": "Los Angeles",
+      "stadium": "SoFi Stadium",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Iran",
         "name": "Irán",
@@ -327,6 +404,12 @@
       "group": "I",
       "kickoff_utc": "2026-06-16T19:00:00Z",
       "city": "New Jersey",
+      "stadium": "MetLife Stadium",
+      "canales": [
+        "DSports",
+        "Chilevisión",
+        "Disney+"
+      ],
       "team1": {
         "key": "France",
         "name": "Francia",
@@ -347,6 +430,10 @@
       "group": "I",
       "kickoff_utc": "2026-06-16T22:00:00Z",
       "city": "Boston",
+      "stadium": "Gillette Stadium",
+      "canales": [
+        "DSports 2"
+      ],
       "team1": {
         "key": "Iraq",
         "name": "Irak",
@@ -367,6 +454,11 @@
       "group": "J",
       "kickoff_utc": "2026-06-17T01:00:00Z",
       "city": "Kansas City",
+      "stadium": "Arrowhead Stadium",
+      "canales": [
+        "DSports",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Argentina",
         "name": "Argentina",
@@ -387,6 +479,10 @@
       "group": "J",
       "kickoff_utc": "2026-06-17T04:00:00Z",
       "city": "San Francisco",
+      "stadium": "Levi's Stadium",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Austria",
         "name": "Austria",
@@ -407,6 +503,10 @@
       "group": "K",
       "kickoff_utc": "2026-06-17T17:00:00Z",
       "city": "Houston",
+      "stadium": "NRG Stadium",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Portugal",
         "name": "Portugal",
@@ -427,6 +527,11 @@
       "group": "L",
       "kickoff_utc": "2026-06-17T20:00:00Z",
       "city": "Dallas",
+      "stadium": "AT&T Stadium",
+      "canales": [
+        "DSports",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "England",
         "name": "Inglaterra",
@@ -447,6 +552,10 @@
       "group": "L",
       "kickoff_utc": "2026-06-17T23:00:00Z",
       "city": "Toronto",
+      "stadium": "BMO Field",
+      "canales": [
+        "DSports 2"
+      ],
       "team1": {
         "key": "Ghana",
         "name": "Ghana",
@@ -467,6 +576,11 @@
       "group": "K",
       "kickoff_utc": "2026-06-18T02:00:00Z",
       "city": "Mexico City",
+      "stadium": "Estadio Azteca",
+      "canales": [
+        "DSports",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Uzbekistan",
         "name": "Uzbekistán",
@@ -487,6 +601,10 @@
       "group": "A",
       "kickoff_utc": "2026-06-18T16:00:00Z",
       "city": "Atlanta",
+      "stadium": "Mercedes-Benz Stadium",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Czechia",
         "name": "Chequia",
@@ -507,6 +625,12 @@
       "group": "B",
       "kickoff_utc": "2026-06-18T19:00:00Z",
       "city": "Los Angeles",
+      "stadium": "SoFi Stadium",
+      "canales": [
+        "DSports",
+        "Chilevisión",
+        "Disney+"
+      ],
       "team1": {
         "key": "Switzerland",
         "name": "Suiza",
@@ -527,6 +651,11 @@
       "group": "B",
       "kickoff_utc": "2026-06-18T22:00:00Z",
       "city": "Vancouver",
+      "stadium": "BC Place",
+      "canales": [
+        "DSports",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Canada",
         "name": "Canadá",
@@ -547,6 +676,10 @@
       "group": "A",
       "kickoff_utc": "2026-06-19T01:00:00Z",
       "city": "Zapopan",
+      "stadium": "Estadio Akron",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Mexico",
         "name": "México",
@@ -567,6 +700,12 @@
       "group": "C",
       "kickoff_utc": "2026-06-19T22:00:00Z",
       "city": "Boston",
+      "stadium": "Gillette Stadium",
+      "canales": [
+        "DSports",
+        "Chilevisión",
+        "Disney+"
+      ],
       "team1": {
         "key": "Scotland",
         "name": "Escocia",
@@ -587,6 +726,11 @@
       "group": "D",
       "kickoff_utc": "2026-06-19T19:00:00Z",
       "city": "Seattle",
+      "stadium": "Lumen Field",
+      "canales": [
+        "DSports",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "United States",
         "name": "Estados Unidos",
@@ -607,6 +751,10 @@
       "group": "C",
       "kickoff_utc": "2026-06-20T00:30:00Z",
       "city": "Philadelphia",
+      "stadium": "Lincoln Financial Field",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Brazil",
         "name": "Brasil",
@@ -625,8 +773,12 @@
       "id": 32,
       "matchday": 2,
       "group": "D",
-      "kickoff_utc": "2026-06-20T03:00:00Z",
+      "kickoff_utc": "2026-06-20T04:00:00Z",
       "city": "San Francisco",
+      "stadium": "Levi's Stadium",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Turkiye",
         "name": "Turquía",
@@ -647,6 +799,10 @@
       "group": "F",
       "kickoff_utc": "2026-06-20T17:00:00Z",
       "city": "Houston",
+      "stadium": "NRG Stadium",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Netherlands",
         "name": "Países Bajos",
@@ -667,6 +823,12 @@
       "group": "E",
       "kickoff_utc": "2026-06-20T20:00:00Z",
       "city": "Toronto",
+      "stadium": "BMO Field",
+      "canales": [
+        "DSports",
+        "Chilevisión",
+        "Disney+"
+      ],
       "team1": {
         "key": "Germany",
         "name": "Alemania",
@@ -687,6 +849,10 @@
       "group": "E",
       "kickoff_utc": "2026-06-21T00:00:00Z",
       "city": "Kansas City",
+      "stadium": "Arrowhead Stadium",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Ecuador",
         "name": "Ecuador",
@@ -707,6 +873,11 @@
       "group": "F",
       "kickoff_utc": "2026-06-21T04:00:00Z",
       "city": "Guadalupe",
+      "stadium": "Estadio Monterrey (BBVA)",
+      "canales": [
+        "DSports",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Tunisia",
         "name": "Túnez",
@@ -727,6 +898,11 @@
       "group": "H",
       "kickoff_utc": "2026-06-21T16:00:00Z",
       "city": "Atlanta",
+      "stadium": "Mercedes-Benz Stadium",
+      "canales": [
+        "DSports",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Spain",
         "name": "España",
@@ -747,6 +923,11 @@
       "group": "G",
       "kickoff_utc": "2026-06-21T19:00:00Z",
       "city": "Los Angeles",
+      "stadium": "SoFi Stadium",
+      "canales": [
+        "DSports 2",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Belgium",
         "name": "Bélgica",
@@ -767,6 +948,10 @@
       "group": "H",
       "kickoff_utc": "2026-06-21T22:00:00Z",
       "city": "Miami",
+      "stadium": "Hard Rock Stadium",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Uruguay",
         "name": "Uruguay",
@@ -787,6 +972,10 @@
       "group": "G",
       "kickoff_utc": "2026-06-22T01:00:00Z",
       "city": "Vancouver",
+      "stadium": "BC Place",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "New Zealand",
         "name": "Nueva Zelanda",
@@ -807,6 +996,11 @@
       "group": "J",
       "kickoff_utc": "2026-06-22T17:00:00Z",
       "city": "Dallas",
+      "stadium": "AT&T Stadium",
+      "canales": [
+        "DSports",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Argentina",
         "name": "Argentina",
@@ -827,6 +1021,10 @@
       "group": "I",
       "kickoff_utc": "2026-06-22T21:00:00Z",
       "city": "Philadelphia",
+      "stadium": "Lincoln Financial Field",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "France",
         "name": "Francia",
@@ -847,6 +1045,11 @@
       "group": "I",
       "kickoff_utc": "2026-06-23T00:00:00Z",
       "city": "New Jersey",
+      "stadium": "MetLife Stadium",
+      "canales": [
+        "DSports",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Norway",
         "name": "Noruega",
@@ -867,6 +1070,10 @@
       "group": "J",
       "kickoff_utc": "2026-06-23T03:00:00Z",
       "city": "San Francisco",
+      "stadium": "Levi's Stadium",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Jordan",
         "name": "Jordania",
@@ -887,6 +1094,11 @@
       "group": "K",
       "kickoff_utc": "2026-06-23T17:00:00Z",
       "city": "Houston",
+      "stadium": "NRG Stadium",
+      "canales": [
+        "DSports",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Portugal",
         "name": "Portugal",
@@ -907,6 +1119,12 @@
       "group": "L",
       "kickoff_utc": "2026-06-23T20:00:00Z",
       "city": "Boston",
+      "stadium": "Gillette Stadium",
+      "canales": [
+        "DSports",
+        "Chilevisión",
+        "Disney+"
+      ],
       "team1": {
         "key": "England",
         "name": "Inglaterra",
@@ -927,6 +1145,11 @@
       "group": "L",
       "kickoff_utc": "2026-06-23T23:00:00Z",
       "city": "Toronto",
+      "stadium": "BMO Field",
+      "canales": [
+        "DSports 2",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Panama",
         "name": "Panamá",
@@ -947,6 +1170,10 @@
       "group": "K",
       "kickoff_utc": "2026-06-24T02:00:00Z",
       "city": "Zapopan",
+      "stadium": "Estadio Akron",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Colombia",
         "name": "Colombia",
@@ -967,6 +1194,10 @@
       "group": "B",
       "kickoff_utc": "2026-06-24T19:00:00Z",
       "city": "Vancouver",
+      "stadium": "BC Place",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Switzerland",
         "name": "Suiza",
@@ -987,6 +1218,10 @@
       "group": "B",
       "kickoff_utc": "2026-06-24T19:00:00Z",
       "city": "Seattle",
+      "stadium": "Lumen Field",
+      "canales": [
+        "DSports 2"
+      ],
       "team1": {
         "key": "Bosnia and Herzegovina",
         "name": "Bosnia y Herzegovina",
@@ -1007,6 +1242,12 @@
       "group": "C",
       "kickoff_utc": "2026-06-24T22:00:00Z",
       "city": "Miami",
+      "stadium": "Hard Rock Stadium",
+      "canales": [
+        "DSports",
+        "Chilevisión",
+        "Disney+"
+      ],
       "team1": {
         "key": "Scotland",
         "name": "Escocia",
@@ -1027,6 +1268,10 @@
       "group": "C",
       "kickoff_utc": "2026-06-24T22:00:00Z",
       "city": "Atlanta",
+      "stadium": "Mercedes-Benz Stadium",
+      "canales": [
+        "DSports+"
+      ],
       "team1": {
         "key": "Morocco",
         "name": "Marruecos",
@@ -1047,6 +1292,11 @@
       "group": "A",
       "kickoff_utc": "2026-06-25T01:00:00Z",
       "city": "Mexico City",
+      "stadium": "Estadio Azteca",
+      "canales": [
+        "DSports",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Czechia",
         "name": "Chequia",
@@ -1067,6 +1317,10 @@
       "group": "A",
       "kickoff_utc": "2026-06-25T01:00:00Z",
       "city": "Guadalupe",
+      "stadium": "Estadio Monterrey (BBVA)",
+      "canales": [
+        "DSports+"
+      ],
       "team1": {
         "key": "South Africa",
         "name": "Sudáfrica",
@@ -1087,6 +1341,11 @@
       "group": "E",
       "kickoff_utc": "2026-06-25T20:00:00Z",
       "city": "New Jersey",
+      "stadium": "MetLife Stadium",
+      "canales": [
+        "DSports",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Ecuador",
         "name": "Ecuador",
@@ -1107,6 +1366,10 @@
       "group": "E",
       "kickoff_utc": "2026-06-25T20:00:00Z",
       "city": "Philadelphia",
+      "stadium": "Lincoln Financial Field",
+      "canales": [
+        "DSports 2"
+      ],
       "team1": {
         "key": "Curacao",
         "name": "Curazao",
@@ -1127,6 +1390,10 @@
       "group": "F",
       "kickoff_utc": "2026-06-25T23:00:00Z",
       "city": "Dallas",
+      "stadium": "AT&T Stadium",
+      "canales": [
+        "DSports+"
+      ],
       "team1": {
         "key": "Japan",
         "name": "Japón",
@@ -1147,6 +1414,11 @@
       "group": "F",
       "kickoff_utc": "2026-06-25T23:00:00Z",
       "city": "Kansas City",
+      "stadium": "Arrowhead Stadium",
+      "canales": [
+        "DSports",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Tunisia",
         "name": "Túnez",
@@ -1167,6 +1439,10 @@
       "group": "D",
       "kickoff_utc": "2026-06-26T02:00:00Z",
       "city": "Los Angeles",
+      "stadium": "SoFi Stadium",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Turkiye",
         "name": "Turquía",
@@ -1187,6 +1463,11 @@
       "group": "D",
       "kickoff_utc": "2026-06-26T02:00:00Z",
       "city": "San Francisco",
+      "stadium": "Levi's Stadium",
+      "canales": [
+        "DSports 2",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Paraguay",
         "name": "Paraguay",
@@ -1207,6 +1488,11 @@
       "group": "I",
       "kickoff_utc": "2026-06-26T19:00:00Z",
       "city": "Boston",
+      "stadium": "Gillette Stadium",
+      "canales": [
+        "DSports",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Norway",
         "name": "Noruega",
@@ -1227,6 +1513,10 @@
       "group": "I",
       "kickoff_utc": "2026-06-26T19:00:00Z",
       "city": "Toronto",
+      "stadium": "BMO Field",
+      "canales": [
+        "DSports 2"
+      ],
       "team1": {
         "key": "Senegal",
         "name": "Senegal",
@@ -1247,6 +1537,10 @@
       "group": "H",
       "kickoff_utc": "2026-06-27T00:00:00Z",
       "city": "Houston",
+      "stadium": "NRG Stadium",
+      "canales": [
+        "DSports 2"
+      ],
       "team1": {
         "key": "Cape Verde",
         "name": "Cabo Verde",
@@ -1267,6 +1561,11 @@
       "group": "H",
       "kickoff_utc": "2026-06-27T00:00:00Z",
       "city": "Zapopan",
+      "stadium": "Estadio Akron",
+      "canales": [
+        "DSports",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Uruguay",
         "name": "Uruguay",
@@ -1287,6 +1586,10 @@
       "group": "G",
       "kickoff_utc": "2026-06-27T03:00:00Z",
       "city": "Seattle",
+      "stadium": "Lumen Field",
+      "canales": [
+        "DSports+"
+      ],
       "team1": {
         "key": "Egypt",
         "name": "Egipto",
@@ -1307,6 +1610,10 @@
       "group": "G",
       "kickoff_utc": "2026-06-27T03:00:00Z",
       "city": "Vancouver",
+      "stadium": "BC Place",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "New Zealand",
         "name": "Nueva Zelanda",
@@ -1327,6 +1634,10 @@
       "group": "L",
       "kickoff_utc": "2026-06-27T21:00:00Z",
       "city": "New Jersey",
+      "stadium": "MetLife Stadium",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Panama",
         "name": "Panamá",
@@ -1347,6 +1658,10 @@
       "group": "L",
       "kickoff_utc": "2026-06-27T21:00:00Z",
       "city": "Philadelphia",
+      "stadium": "Lincoln Financial Field",
+      "canales": [
+        "DSports+"
+      ],
       "team1": {
         "key": "Croatia",
         "name": "Croacia",
@@ -1367,6 +1682,11 @@
       "group": "K",
       "kickoff_utc": "2026-06-27T23:30:00Z",
       "city": "Miami",
+      "stadium": "Hard Rock Stadium",
+      "canales": [
+        "DSports",
+        "Chilevisión"
+      ],
       "team1": {
         "key": "Colombia",
         "name": "Colombia",
@@ -1387,6 +1707,10 @@
       "group": "K",
       "kickoff_utc": "2026-06-27T23:30:00Z",
       "city": "Atlanta",
+      "stadium": "Mercedes-Benz Stadium",
+      "canales": [
+        "DSports+"
+      ],
       "team1": {
         "key": "DR Congo",
         "name": "RD Congo",
@@ -1407,6 +1731,10 @@
       "group": "J",
       "kickoff_utc": "2026-06-28T02:00:00Z",
       "city": "Kansas City",
+      "stadium": "Arrowhead Stadium",
+      "canales": [
+        "DSports+"
+      ],
       "team1": {
         "key": "Algeria",
         "name": "Argelia",
@@ -1427,6 +1755,10 @@
       "group": "J",
       "kickoff_utc": "2026-06-28T02:00:00Z",
       "city": "Dallas",
+      "stadium": "AT&T Stadium",
+      "canales": [
+        "DSports"
+      ],
       "team1": {
         "key": "Jordan",
         "name": "Jordania",

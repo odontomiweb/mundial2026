@@ -88,6 +88,14 @@ table.standings .flag-img { width: 22px; height: 16px; margin-right: 2px; }
 .match .vs { color: var(--muted); font-weight: 700; }
 .match .time { font-size: .72rem; color: var(--muted); margin-top: 2px; }
 .match .meta { font-size: .68rem; color: var(--muted); margin-top: 2px; }
+.match .meta.dim { opacity: .7; font-size: .62rem; }
+.match .meta.canal {
+  display: flex; flex-wrap: wrap; gap: 4px; justify-content: center; margin-top: 4px;
+}
+.match .meta.canal .chip {
+  background: var(--card2); color: var(--accent); border: 1px solid var(--line);
+  border-radius: 999px; padding: 1px 7px; font-size: .6rem; font-weight: 700;
+}
 .match .badge {
   display: inline-block; font-size: .6rem; font-weight: 800; padding: 2px 7px;
   border-radius: 999px; margin-top: 4px; text-transform: uppercase; letter-spacing: .5px;
