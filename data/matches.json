@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-15T19:42:10Z",
+  "updated_utc": "2026-06-15T22:13:48Z",
   "matches": [
     {
       "id": 1,
@@ -345,9 +345,9 @@
         "name": "Egipto",
         "flag": "🇪🇬"
       },
-      "score1": 0,
+      "score1": 1,
       "score2": 1,
-      "status": "IN_PLAY"
+      "status": "FINISHED"
     },
     {
       "id": 15,
@@ -370,9 +370,9 @@
         "name": "Uruguay",
         "flag": "🇺🇾"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 0,
+      "score2": 0,
+      "status": "IN_PLAY"
     },
     {
       "id": 16,
