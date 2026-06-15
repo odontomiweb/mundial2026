@@ -92,9 +92,20 @@ table.standings .flag-img { width: 22px; height: 16px; margin-right: 2px; }
 .match .meta.canal {
   display: flex; flex-wrap: wrap; gap: 4px; justify-content: center; margin-top: 4px;
 }
-.match .meta.canal .chip {
-  background: var(--card2); color: var(--accent); border: 1px solid var(--line);
-  border-radius: 999px; padding: 1px 7px; font-size: .6rem; font-weight: 700;
+.chip {
+  display: inline-block; border-radius: 999px; padding: 1px 7px;
+  font-size: .6rem; font-weight: 700; border: 1px solid var(--line);
+  background: var(--card2); color: var(--accent);
+}
+.chip.free   { background: #0f3d2e; color: #6ef0b8; border-color: #1f6b4d; }  /* TV abierta gratis */
+.chip.cable  { background: var(--card2); color: var(--accent); }              /* DSports (cable) */
+.chip.stream { background: #2a1f45; color: #c4a8ff; border-color: #46357a; }  /* Disney+ / streaming */
+
+.canal-legend {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 5px;
+  font-size: .68rem; color: var(--muted); margin: 0 0 14px;
+  background: var(--card); border: 1px solid var(--line);
+  border-radius: 10px; padding: 8px 10px;
 }
 .match .badge {
   display: inline-block; font-size: .6rem; font-weight: 800; padding: 2px 7px;

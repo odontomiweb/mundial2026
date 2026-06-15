@@ -75,6 +75,29 @@ function formaHtml(key) {
 }
 
 // ===========================================================
+//  Canales de TV (color segun tipo: abierta / cable / streaming)
+// ===========================================================
+function canalTipo(c) {
+  const x = c.toLowerCase();
+  if (x.includes("chilevisi")) return "free";            // TV abierta gratis
+  if (x.includes("disney") || x.includes("paramount") || x.includes("star") || x.includes("hbo") || x.includes("netflix"))
+    return "stream";                                     // app / streaming
+  return "cable";                                        // DSports y variantes
+}
+function canalChip(c) {
+  const tipo = canalTipo(c);
+  const txt = tipo === "free" ? `${c} · gratis` : c;
+  return `<span class="chip ${tipo}">${txt}</span>`;
+}
+function canalLegend() {
+  return `<div class="canal-legend">
+    <span class="chip free">Chilevisión · gratis</span> TV abierta &nbsp;·&nbsp;
+    <span class="chip cable">DSports</span> cable &nbsp;·&nbsp;
+    <span class="chip stream">Disney+</span> app / streaming
+  </div>`;
+}
+
+// ===========================================================
 //  Tarjeta de un partido (con detalle desplegable)
 // ===========================================================
 function teamMini(t) {
@@ -133,7 +156,7 @@ function matchCard(m) {
 
   const lugar = m.stadium ? `${m.stadium} · ${m.city}` : m.city;
   const canalLine = (m.canales && m.canales.length)
-    ? `<div class="meta canal">📺 ${m.canales.map((c) => `<span class="chip">${c}</span>`).join("")}</div>`
+    ? `<div class="meta canal">📺 ${m.canales.map(canalChip).join("")}</div>`
     : "";
 
   return `
@@ -171,6 +194,7 @@ function renderHoy() {
   const proximos = sorted.filter((m) => dObj(m) > ahora && localDateKey(dObj(m)) !== tk).slice(0, 6);
 
   let html = `<h2 class="section-title">⚽ Partidos de hoy</h2>`;
+  html += canalLegend();
   html += `<h3 class="day-title">${fmtDayTitle(new Date())}</h3>`;
   html += hoy.length ? hoy.map(matchCard).join("") :
     `<div class="empty">No hay partidos hoy. ¡Pero vienen más! 👇</div>`;
@@ -195,6 +219,7 @@ function renderCalendario() {
   const el = document.getElementById("calendario");
   let html = `<h2 class="section-title">📅 Calendario completo</h2>`;
   html += `<p class="hint">Toca un partido para ver datos de cada equipo y el % estimado.</p>`;
+  html += canalLegend();
   html += `<div class="filters">
     ${["todas", "1", "2", "3"].map((f) =>
       `<button class="${calFilter === f ? "active" : ""}" data-jor="${f}">${f === "todas" ? "Todas" : "Jornada " + f}</button>`
