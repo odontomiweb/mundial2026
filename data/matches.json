@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-15T03:36:25Z",
+  "updated_utc": "2026-06-15T09:56:57Z",
   "matches": [
     {
       "id": 1,
@@ -237,9 +237,9 @@
         "name": "Túnez",
         "flag": "🇹🇳"
       },
-      "score1": 3,
+      "score1": 5,
       "score2": 1,
-      "status": "IN_PLAY"
+      "status": "FINISHED"
     },
     {
       "id": 13,
