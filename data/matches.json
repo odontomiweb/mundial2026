@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-14T23:03:18Z",
+  "updated_utc": "2026-06-15T03:36:25Z",
   "matches": [
     {
       "id": 1,
@@ -217,9 +217,9 @@
         "name": "Ecuador",
         "flag": "🇪🇨"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 1,
+      "score2": 0,
+      "status": "FINISHED"
     },
     {
       "id": 12,
@@ -237,9 +237,9 @@
         "name": "Túnez",
         "flag": "🇹🇳"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 3,
+      "score2": 1,
+      "status": "IN_PLAY"
     },
     {
       "id": 13,
