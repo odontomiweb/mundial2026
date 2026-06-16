@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-15T22:13:48Z",
+  "updated_utc": "2026-06-16T03:33:03Z",
   "matches": [
     {
       "id": 1,
@@ -72,8 +72,8 @@
         "name": "Bosnia y Herzegovina",
         "flag": "🇧🇦"
       },
-      "score1": 1,
-      "score2": 1,
+      "score1": null,
+      "score2": null,
       "status": "FINISHED"
     },
     {
@@ -370,9 +370,9 @@
         "name": "Uruguay",
         "flag": "🇺🇾"
       },
-      "score1": 0,
-      "score2": 0,
-      "status": "IN_PLAY"
+      "score1": 1,
+      "score2": 1,
+      "status": "FINISHED"
     },
     {
       "id": 16,
@@ -394,9 +394,9 @@
         "name": "Nueva Zelanda",
         "flag": "🇳🇿"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 2,
+      "score2": 2,
+      "status": "FINISHED"
     },
     {
       "id": 17,
