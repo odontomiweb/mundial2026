@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-16T19:33:38Z",
+  "updated_utc": "2026-06-16T22:07:21Z",
   "matches": [
     {
       "id": 1,
@@ -420,9 +420,9 @@
         "name": "Senegal",
         "flag": "🇸🇳"
       },
-      "score1": 0,
-      "score2": 0,
-      "status": "IN_PLAY"
+      "score1": 3,
+      "score2": 1,
+      "status": "FINISHED"
     },
     {
       "id": 18,
@@ -444,9 +444,9 @@
         "name": "Noruega",
         "flag": "🇳🇴"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 0,
+      "score2": 0,
+      "status": "IN_PLAY"
     },
     {
       "id": 19,
