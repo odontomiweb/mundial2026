@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-17T03:30:53Z",
+  "updated_utc": "2026-06-17T08:56:41Z",
   "matches": [
     {
       "id": 1,
@@ -493,9 +493,9 @@
         "name": "Jordania",
         "flag": "🇯🇴"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 3,
+      "score2": 1,
+      "status": "FINISHED"
     },
     {
       "id": 21,
