@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-17T20:06:19Z",
+  "updated_utc": "2026-06-17T23:19:14Z",
   "matches": [
     {
       "id": 1,
@@ -542,9 +542,9 @@
         "name": "Croacia",
         "flag": "🇭🇷"
       },
-      "score1": 0,
-      "score2": 0,
-      "status": "IN_PLAY"
+      "score1": 4,
+      "score2": 2,
+      "status": "FINISHED"
     },
     {
       "id": 23,
@@ -566,9 +566,9 @@
         "name": "Panamá",
         "flag": "🇵🇦"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 0,
+      "score2": 0,
+      "status": "IN_PLAY"
     },
     {
       "id": 24,
