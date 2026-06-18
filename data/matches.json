@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-18T20:16:38Z",
+  "updated_utc": "2026-06-18T23:41:11Z",
   "matches": [
     {
       "id": 1,
@@ -641,9 +641,9 @@
         "name": "Bosnia y Herzegovina",
         "flag": "🇧🇦"
       },
-      "score1": null,
-      "score2": null,
-      "status": "IN_PLAY"
+      "score1": 4,
+      "score2": 1,
+      "status": "FINISHED"
     },
     {
       "id": 27,
@@ -666,9 +666,9 @@
         "name": "Catar",
         "flag": "🇶🇦"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 4,
+      "score2": 0,
+      "status": "IN_PLAY"
     },
     {
       "id": 28,
