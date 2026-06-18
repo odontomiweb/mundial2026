@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-17T23:19:14Z",
+  "updated_utc": "2026-06-18T02:58:42Z",
   "matches": [
     {
       "id": 1,
@@ -72,8 +72,8 @@
         "name": "Bosnia y Herzegovina",
         "flag": "🇧🇦"
       },
-      "score1": 1,
-      "score2": 1,
+      "score1": null,
+      "score2": null,
       "status": "FINISHED"
     },
     {
@@ -566,9 +566,9 @@
         "name": "Panamá",
         "flag": "🇵🇦"
       },
-      "score1": 0,
+      "score1": 1,
       "score2": 0,
-      "status": "IN_PLAY"
+      "status": "FINISHED"
     },
     {
       "id": 24,
@@ -591,9 +591,9 @@
         "name": "Colombia",
         "flag": "🇨🇴"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 0,
+      "score2": 1,
+      "status": "IN_PLAY"
     },
     {
       "id": 25,
