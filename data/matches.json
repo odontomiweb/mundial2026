@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-19T21:04:46Z",
+  "updated_utc": "2026-06-19T22:50:36Z",
   "matches": [
     {
       "id": 1,
@@ -716,9 +716,9 @@
         "name": "Marruecos",
         "flag": "🇲🇦"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 0,
+      "score2": 1,
+      "status": "IN_PLAY"
     },
     {
       "id": 30,
@@ -743,7 +743,7 @@
       },
       "score1": 2,
       "score2": 0,
-      "status": "IN_PLAY"
+      "status": "FINISHED"
     },
     {
       "id": 31,
