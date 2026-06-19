@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-19T16:30:06Z",
+  "updated_utc": "2026-06-19T19:41:45Z",
   "matches": [
     {
       "id": 1,
@@ -741,9 +741,9 @@
         "name": "Australia",
         "flag": "🇦🇺"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 1,
+      "score2": 0,
+      "status": "IN_PLAY"
     },
     {
       "id": 31,
