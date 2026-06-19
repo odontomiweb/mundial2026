@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-18T23:41:11Z",
+  "updated_utc": "2026-06-19T03:44:50Z",
   "matches": [
     {
       "id": 1,
@@ -666,9 +666,9 @@
         "name": "Catar",
         "flag": "🇶🇦"
       },
-      "score1": 4,
+      "score1": 6,
       "score2": 0,
-      "status": "IN_PLAY"
+      "status": "FINISHED"
     },
     {
       "id": 28,
@@ -690,9 +690,9 @@
         "name": "Corea del Sur",
         "flag": "🇰🇷"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 1,
+      "score2": 0,
+      "status": "FINISHED"
     },
     {
       "id": 29,
