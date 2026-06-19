@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-19T03:44:50Z",
+  "updated_utc": "2026-06-19T09:02:34Z",
   "matches": [
     {
       "id": 1,
@@ -72,8 +72,8 @@
         "name": "Bosnia y Herzegovina",
         "flag": "🇧🇦"
       },
-      "score1": 1,
-      "score2": 1,
+      "score1": null,
+      "score2": null,
       "status": "FINISHED"
     },
     {
