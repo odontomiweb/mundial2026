@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-20T21:10:24Z",
+  "updated_utc": "2026-06-20T23:02:07Z",
   "matches": [
     {
       "id": 1,
@@ -839,9 +839,9 @@
         "name": "Costa de Marfil",
         "flag": "🇨🇮"
       },
-      "score1": 0,
+      "score1": 2,
       "score2": 1,
-      "status": "IN_PLAY"
+      "status": "FINISHED"
     },
     {
       "id": 35,
