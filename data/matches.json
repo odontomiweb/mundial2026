@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-21T21:09:12Z",
+  "updated_utc": "2026-06-21T23:06:06Z",
   "matches": [
     {
       "id": 1,
@@ -962,9 +962,9 @@
         "name": "Cabo Verde",
         "flag": "🇨🇻"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 2,
+      "score2": 1,
+      "status": "IN_PLAY"
     },
     {
       "id": 40,
