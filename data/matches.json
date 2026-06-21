@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-21T15:48:14Z",
+  "updated_utc": "2026-06-21T17:23:36Z",
   "matches": [
     {
       "id": 1,
@@ -913,9 +913,9 @@
         "name": "Arabia Saudita",
         "flag": "🇸🇦"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 4,
+      "score2": 0,
+      "status": "IN_PLAY"
     },
     {
       "id": 38,
