@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-23T02:42:47Z",
+  "updated_utc": "2026-06-23T07:42:50Z",
   "matches": [
     {
       "id": 1,
@@ -1084,9 +1084,9 @@
         "name": "Argelia",
         "flag": "🇩🇿"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 1,
+      "score2": 2,
+      "status": "FINISHED"
     },
     {
       "id": 45,
