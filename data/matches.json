@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-22T23:22:58Z",
+  "updated_utc": "2026-06-23T02:42:47Z",
   "matches": [
     {
       "id": 1,
@@ -1035,9 +1035,9 @@
         "name": "Irak",
         "flag": "🇮🇶"
       },
-      "score1": 1,
+      "score1": 3,
       "score2": 0,
-      "status": "IN_PLAY"
+      "status": "FINISHED"
     },
     {
       "id": 43,
@@ -1060,9 +1060,9 @@
         "name": "Senegal",
         "flag": "🇸🇳"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 3,
+      "score2": 2,
+      "status": "FINISHED"
     },
     {
       "id": 44,
