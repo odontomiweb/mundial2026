@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-23T14:36:40Z",
+  "updated_utc": "2026-06-23T17:48:00Z",
   "matches": [
     {
       "id": 1,
@@ -1109,9 +1109,9 @@
         "name": "Uzbekistán",
         "flag": "🇺🇿"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 3,
+      "score2": 0,
+      "status": "IN_PLAY"
     },
     {
       "id": 46,
