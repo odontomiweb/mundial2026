@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-24T02:43:26Z",
+  "updated_utc": "2026-06-24T07:35:13Z",
   "matches": [
     {
       "id": 1,
@@ -1184,9 +1184,9 @@
         "name": "RD Congo",
         "flag": "🇨🇩"
       },
-      "score1": 0,
+      "score1": 1,
       "score2": 0,
-      "status": "SCHEDULED"
+      "status": "FINISHED"
     },
     {
       "id": 49,
