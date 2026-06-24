@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-24T17:50:04Z",
+  "updated_utc": "2026-06-24T19:38:45Z",
   "matches": [
     {
       "id": 1,
@@ -1208,9 +1208,9 @@
         "name": "Canadá",
         "flag": "🇨🇦"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 0,
+      "score2": 0,
+      "status": "IN_PLAY"
     },
     {
       "id": 50,
@@ -1232,9 +1232,9 @@
         "name": "Catar",
         "flag": "🇶🇦"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 1,
+      "score2": 0,
+      "status": "IN_PLAY"
     },
     {
       "id": 51,
