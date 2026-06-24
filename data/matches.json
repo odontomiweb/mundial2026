@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-23T23:04:03Z",
+  "updated_utc": "2026-06-24T02:43:26Z",
   "matches": [
     {
       "id": 1,
@@ -1160,9 +1160,9 @@
         "name": "Croacia",
         "flag": "🇭🇷"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 0,
+      "score2": 1,
+      "status": "FINISHED"
     },
     {
       "id": 48,
@@ -1184,8 +1184,8 @@
         "name": "RD Congo",
         "flag": "🇨🇩"
       },
-      "score1": null,
-      "score2": null,
+      "score1": 0,
+      "score2": 0,
       "status": "SCHEDULED"
     },
     {
