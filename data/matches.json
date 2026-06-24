@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-24T21:18:51Z",
+  "updated_utc": "2026-06-24T23:00:34Z",
   "matches": [
     {
       "id": 1,
@@ -1258,9 +1258,9 @@
         "name": "Brasil",
         "flag": "🇧🇷"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 0,
+      "score2": 2,
+      "status": "IN_PLAY"
     },
     {
       "id": 52,
@@ -1282,9 +1282,9 @@
         "name": "Haití",
         "flag": "🇭🇹"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 2,
+      "score2": 2,
+      "status": "IN_PLAY"
     },
     {
       "id": 53,
