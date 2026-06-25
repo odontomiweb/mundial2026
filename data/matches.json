@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-24T23:00:34Z",
+  "updated_utc": "2026-06-25T02:43:55Z",
   "matches": [
     {
       "id": 1,
@@ -1259,8 +1259,8 @@
         "flag": "🇧🇷"
       },
       "score1": 0,
-      "score2": 2,
-      "status": "IN_PLAY"
+      "score2": 3,
+      "status": "FINISHED"
     },
     {
       "id": 52,
@@ -1282,9 +1282,9 @@
         "name": "Haití",
         "flag": "🇭🇹"
       },
-      "score1": 2,
+      "score1": 4,
       "score2": 2,
-      "status": "IN_PLAY"
+      "status": "FINISHED"
     },
     {
       "id": 53,
@@ -1307,9 +1307,9 @@
         "name": "México",
         "flag": "🇲🇽"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 0,
+      "score2": 2,
+      "status": "IN_PLAY"
     },
     {
       "id": 54,
@@ -1331,9 +1331,9 @@
         "name": "Corea del Sur",
         "flag": "🇰🇷"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 1,
+      "score2": 0,
+      "status": "IN_PLAY"
     },
     {
       "id": 55,
