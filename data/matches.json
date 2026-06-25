@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-25T02:43:55Z",
+  "updated_utc": "2026-06-25T07:37:36Z",
   "matches": [
     {
       "id": 1,
@@ -1308,8 +1308,8 @@
         "flag": "🇲🇽"
       },
       "score1": 0,
-      "score2": 2,
-      "status": "IN_PLAY"
+      "score2": 3,
+      "status": "FINISHED"
     },
     {
       "id": 54,
@@ -1333,7 +1333,7 @@
       },
       "score1": 1,
       "score2": 0,
-      "status": "IN_PLAY"
+      "status": "FINISHED"
     },
     {
       "id": 55,
