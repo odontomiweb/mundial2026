@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-25T18:05:54Z",
+  "updated_utc": "2026-06-25T21:26:25Z",
   "matches": [
     {
       "id": 1,
@@ -1356,9 +1356,9 @@
         "name": "Alemania",
         "flag": "🇩🇪"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 1,
+      "score2": 1,
+      "status": "IN_PLAY"
     },
     {
       "id": 56,
@@ -1380,9 +1380,9 @@
         "name": "Costa de Marfil",
         "flag": "🇨🇮"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 0,
+      "score2": 1,
+      "status": "IN_PLAY"
     },
     {
       "id": 57,
