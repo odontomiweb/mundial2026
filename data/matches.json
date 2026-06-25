@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-25T21:26:25Z",
+  "updated_utc": "2026-06-25T23:12:25Z",
   "matches": [
     {
       "id": 1,
@@ -1356,9 +1356,9 @@
         "name": "Alemania",
         "flag": "🇩🇪"
       },
-      "score1": 1,
+      "score1": 2,
       "score2": 1,
-      "status": "IN_PLAY"
+      "status": "FINISHED"
     },
     {
       "id": 56,
@@ -1381,8 +1381,8 @@
         "flag": "🇨🇮"
       },
       "score1": 0,
-      "score2": 1,
-      "status": "IN_PLAY"
+      "score2": 2,
+      "status": "FINISHED"
     },
     {
       "id": 57,
@@ -1404,9 +1404,9 @@
         "name": "Suecia",
         "flag": "🇸🇪"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 0,
+      "score2": 0,
+      "status": "IN_PLAY"
     },
     {
       "id": 58,
@@ -1429,9 +1429,9 @@
         "name": "Países Bajos",
         "flag": "🇳🇱"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 0,
+      "score2": 2,
+      "status": "IN_PLAY"
     },
     {
       "id": 59,
