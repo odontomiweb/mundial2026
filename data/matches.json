@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-26T02:48:09Z",
+  "updated_utc": "2026-06-26T07:44:40Z",
   "matches": [
     {
       "id": 1,
@@ -1453,9 +1453,9 @@
         "name": "Estados Unidos",
         "flag": "🇺🇸"
       },
-      "score1": 2,
-      "score2": 1,
-      "status": "IN_PLAY"
+      "score1": 3,
+      "score2": 2,
+      "status": "FINISHED"
     },
     {
       "id": 60,
@@ -1480,7 +1480,7 @@
       },
       "score1": 0,
       "score2": 0,
-      "status": "IN_PLAY"
+      "status": "FINISHED"
     },
     {
       "id": 61,
