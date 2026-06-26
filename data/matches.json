@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-26T17:42:43Z",
+  "updated_utc": "2026-06-26T19:40:37Z",
   "matches": [
     {
       "id": 1,
@@ -1503,8 +1503,8 @@
         "name": "Francia",
         "flag": "🇫🇷"
       },
-      "score1": null,
-      "score2": null,
+      "score1": 1,
+      "score2": 3,
       "status": "SCHEDULED"
     },
     {
@@ -1527,8 +1527,8 @@
         "name": "Irak",
         "flag": "🇮🇶"
       },
-      "score1": null,
-      "score2": null,
+      "score1": 1,
+      "score2": 0,
       "status": "SCHEDULED"
     },
     {
