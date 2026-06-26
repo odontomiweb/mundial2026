@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-26T19:40:37Z",
+  "updated_utc": "2026-06-26T21:14:54Z",
   "matches": [
     {
       "id": 1,
@@ -1504,8 +1504,8 @@
         "flag": "🇫🇷"
       },
       "score1": 1,
-      "score2": 3,
-      "status": "SCHEDULED"
+      "score2": 4,
+      "status": "FINISHED"
     },
     {
       "id": 62,
@@ -1527,9 +1527,9 @@
         "name": "Irak",
         "flag": "🇮🇶"
       },
-      "score1": 1,
+      "score1": 5,
       "score2": 0,
-      "status": "SCHEDULED"
+      "status": "FINISHED"
     },
     {
       "id": 63,
