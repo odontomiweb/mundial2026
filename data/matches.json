@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-26T23:00:40Z",
+  "updated_utc": "2026-06-27T02:39:01Z",
   "matches": [
     {
       "id": 1,
@@ -1551,9 +1551,9 @@
         "name": "Arabia Saudita",
         "flag": "🇸🇦"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 0,
+      "score2": 0,
+      "status": "FINISHED"
     },
     {
       "id": 64,
@@ -1576,9 +1576,9 @@
         "name": "España",
         "flag": "🇪🇸"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 0,
+      "score2": 1,
+      "status": "FINISHED"
     },
     {
       "id": 65,
