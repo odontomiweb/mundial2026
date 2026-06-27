@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-27T02:39:01Z",
+  "updated_utc": "2026-06-27T06:49:08Z",
   "matches": [
     {
       "id": 1,
@@ -1600,9 +1600,9 @@
         "name": "Irán",
         "flag": "🇮🇷"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 1,
+      "score2": 1,
+      "status": "FINISHED"
     },
     {
       "id": 66,
@@ -1624,9 +1624,9 @@
         "name": "Bélgica",
         "flag": "🇧🇪"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 1,
+      "score2": 5,
+      "status": "FINISHED"
     },
     {
       "id": 67,
