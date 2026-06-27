@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-27T20:55:51Z",
+  "updated_utc": "2026-06-27T22:58:25Z",
   "matches": [
     {
       "id": 1,
@@ -1648,9 +1648,9 @@
         "name": "Inglaterra",
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 0,
+      "score2": 2,
+      "status": "IN_PLAY"
     },
     {
       "id": 68,
@@ -1672,9 +1672,9 @@
         "name": "Ghana",
         "flag": "🇬🇭"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 2,
+      "score2": 1,
+      "status": "IN_PLAY"
     },
     {
       "id": 69,
