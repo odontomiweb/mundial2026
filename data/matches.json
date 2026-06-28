@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-27T22:58:25Z",
+  "updated_utc": "2026-06-28T02:53:25Z",
   "matches": [
     {
       "id": 1,
@@ -1650,7 +1650,7 @@
       },
       "score1": 0,
       "score2": 2,
-      "status": "IN_PLAY"
+      "status": "FINISHED"
     },
     {
       "id": 68,
@@ -1674,7 +1674,7 @@
       },
       "score1": 2,
       "score2": 1,
-      "status": "IN_PLAY"
+      "status": "FINISHED"
     },
     {
       "id": 69,
@@ -1697,9 +1697,9 @@
         "name": "Portugal",
         "flag": "🇵🇹"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 0,
+      "score2": 0,
+      "status": "FINISHED"
     },
     {
       "id": 70,
@@ -1721,9 +1721,9 @@
         "name": "Uzbekistán",
         "flag": "🇺🇿"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 3,
+      "score2": 1,
+      "status": "FINISHED"
     },
     {
       "id": 71,
@@ -1745,8 +1745,8 @@
         "name": "Austria",
         "flag": "🇦🇹"
       },
-      "score1": null,
-      "score2": null,
+      "score1": 1,
+      "score2": 1,
       "status": "SCHEDULED"
     },
     {
@@ -1769,9 +1769,9 @@
         "name": "Argentina",
         "flag": "🇦🇷"
       },
-      "score1": null,
-      "score2": null,
-      "status": "SCHEDULED"
+      "score1": 0,
+      "score2": 2,
+      "status": "IN_PLAY"
     }
   ]
 }
