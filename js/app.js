@@ -36,6 +36,9 @@ function fmtDayTitle(d) {
   const s = d.toLocaleDateString("es-CL", { weekday: "long", day: "numeric", month: "long" });
   return s.charAt(0).toUpperCase() + s.slice(1);
 }
+function fmtDayShort(d) {
+  return d.toLocaleDateString("es-CL", { weekday: "short", day: "numeric", month: "short" });
+}
 function isFinished(m) { return m.status === "FINISHED" || (m.score1 !== null && m.score2 !== null && m.status !== "IN_PLAY"); }
 function isLive(m) { return m.status === "IN_PLAY"; }
 function hasScore(m) { return m.score1 !== null && m.score2 !== null; }
@@ -183,29 +186,92 @@ function matchCard(m) {
 }
 
 // ===========================================================
+//  Tarjeta de un partido de la FASE FINAL
+// ===========================================================
+function koAsMatches() {
+  const out = [];
+  const br = DATA.bracket || {};
+  for (const r of br.rondas || [])
+    for (const p of r.partidos)
+      if (p.kickoff_utc) out.push({ p, round: r });
+  return out;
+}
+function koCard(km) {
+  const p = km.p, r = km.round;
+  const d = dObj(p);
+  const t1 = koTeamSide(p, "s1"), t2 = koTeamSide(p, "s2");
+  const fin = koFinished(p), live = koLive(p), sc = koHasScore(p);
+  const win = koWinnerSide(p);
+  const w1 = win === "s1", w2 = win === "s2";
+
+  let mid;
+  if (sc) {
+    const pen = (fin && p.pen) ? ` <span class="pen-note">(pen.)</span>` : "";
+    mid = `<div class="score">${p.score1 ?? 0} - ${p.score2 ?? 0}${pen}</div>`;
+  } else {
+    mid = `<div class="vs">VS</div><div class="time">${fmtTime(d)} hrs</div>`;
+  }
+  let badge = `<span class="badge group">${r.nombre}</span>`;
+  if (live) badge = `<span class="badge live">● En vivo</span>`;
+  else if (fin) badge = `<span class="badge fin">Final · ${r.nombre}</span>`;
+
+  const lugar = p.stadium ? `${p.stadium} · ${p.city}` : (p.city || "");
+  const canalLine = (r.canales && r.canales.length)
+    ? `<div class="meta canal">📺 ${r.canales.map(canalChip).join("")}</div>` : "";
+
+  const side = (t) => t.real
+    ? `<span class="flag">${flagImg(t.key)}</span><span class="tname">${t.name}</span>`
+    : `<span class="tname slot">${t.label}</span>`;
+
+  const detalle = (t1.real && t2.real)
+    ? matchDetail({ team1: { key: t1.key, name: t1.name }, team2: { key: t2.key, name: t2.name } })
+    : `<div class="detail"><div class="wp-lbl">Los equipos se confirman cuando avancen las rondas anteriores.</div></div>`;
+
+  return `
+  <details class="match-d">
+    <summary class="match">
+      <div class="side ${w1 ? "winner" : ""}">${side(t1)}</div>
+      <div class="mid">
+        ${mid}
+        <div>${badge}</div>
+        <div class="meta">🏟️ ${lugar}</div>
+        ${canalLine}
+        <div class="meta dim">ver datos ▾</div>
+      </div>
+      <div class="side right ${w2 ? "winner" : ""}">${side(t2)}</div>
+    </summary>
+    ${detalle}
+  </details>`;
+}
+
+// ===========================================================
 //  Panel HOY
 // ===========================================================
 function renderHoy() {
   const el = document.getElementById("hoy");
   const tk = todayKey();
-  const sorted = [...DATA.matches].sort((a, b) => dObj(a) - dObj(b));
-  const hoy = sorted.filter((m) => localDateKey(dObj(m)) === tk);
   const ahora = new Date();
-  const proximos = sorted.filter((m) => dObj(m) > ahora && localDateKey(dObj(m)) !== tk).slice(0, 6);
+  const items = [
+    ...DATA.matches.map((m) => ({ d: dObj(m), html: matchCard(m) })),
+    ...koAsMatches().map((km) => ({ d: dObj(km.p), html: koCard(km) })),
+  ].sort((a, b) => a.d - b.d);
+
+  const hoy = items.filter((x) => localDateKey(x.d) === tk);
+  const proximos = items.filter((x) => x.d > ahora && localDateKey(x.d) !== tk).slice(0, 6);
 
   let html = `<h2 class="section-title">⚽ Partidos de hoy</h2>`;
   html += canalLegend();
   html += `<h3 class="day-title">${fmtDayTitle(new Date())}</h3>`;
-  html += hoy.length ? hoy.map(matchCard).join("") :
+  html += hoy.length ? hoy.map((x) => x.html).join("") :
     `<div class="empty">No hay partidos hoy. ¡Pero vienen más! 👇</div>`;
 
   if (proximos.length) {
     html += `<h2 class="section-title" style="margin-top:26px">📅 Próximos partidos</h2>`;
     let lastDay = "";
-    for (const m of proximos) {
-      const dk = localDateKey(dObj(m));
-      if (dk !== lastDay) { html += `<h3 class="day-title">${fmtDayTitle(dObj(m))}</h3>`; lastDay = dk; }
-      html += matchCard(m);
+    for (const x of proximos) {
+      const dk = localDateKey(x.d);
+      if (dk !== lastDay) { html += `<h3 class="day-title">${fmtDayTitle(x.d)}</h3>`; lastDay = dk; }
+      html += x.html;
     }
   }
   el.innerHTML = html;
@@ -220,20 +286,30 @@ function renderCalendario() {
   let html = `<h2 class="section-title">📅 Calendario completo</h2>`;
   html += `<p class="hint">Toca un partido para ver datos de cada equipo y el % estimado.</p>`;
   html += canalLegend();
+  const filtros = [["todas", "Todas"], ["1", "Jornada 1"], ["2", "Jornada 2"], ["3", "Jornada 3"], ["final", "Fase final"]];
   html += `<div class="filters">
-    ${["todas", "1", "2", "3"].map((f) =>
-      `<button class="${calFilter === f ? "active" : ""}" data-jor="${f}">${f === "todas" ? "Todas" : "Jornada " + f}</button>`
+    ${filtros.map(([f, lbl]) =>
+      `<button class="${calFilter === f ? "active" : ""}" data-jor="${f}">${lbl}</button>`
     ).join("")}
   </div>`;
 
-  let list = [...DATA.matches].sort((a, b) => dObj(a) - dObj(b));
-  if (calFilter !== "todas") list = list.filter((m) => String(m.matchday) === calFilter);
+  let items;
+  if (calFilter === "final") {
+    items = koAsMatches().map((km) => ({ d: dObj(km.p), html: koCard(km) }));
+  } else {
+    let groupM = [...DATA.matches];
+    if (calFilter !== "todas") groupM = groupM.filter((m) => String(m.matchday) === calFilter);
+    items = groupM.map((m) => ({ d: dObj(m), html: matchCard(m) }));
+    if (calFilter === "todas")
+      items = items.concat(koAsMatches().map((km) => ({ d: dObj(km.p), html: koCard(km) })));
+  }
+  items.sort((a, b) => a.d - b.d);
 
   let lastDay = "";
-  for (const m of list) {
-    const dk = localDateKey(dObj(m));
-    if (dk !== lastDay) { html += `<h3 class="day-title">${fmtDayTitle(dObj(m))}</h3>`; lastDay = dk; }
-    html += matchCard(m);
+  for (const x of items) {
+    const dk = localDateKey(x.d);
+    if (dk !== lastDay) { html += `<h3 class="day-title">${fmtDayTitle(x.d)}</h3>`; lastDay = dk; }
+    html += x.html;
   }
   el.innerHTML = html;
   el.querySelectorAll("[data-jor]").forEach((b) =>
@@ -312,14 +388,44 @@ function renderGrupos() {
 }
 
 // ===========================================================
-//  Panel BRACKET
+//  Panel BRACKET (fase final)
 // ===========================================================
 function teamByKey(key) {
   for (const g of Object.values(DATA.groups))
     for (const t of g) if (t.key === key) return t;
   return null;
 }
-function resolveSlot(code) {
+
+// --- buscar un partido de la fase final por su numero ---
+function koMatchByN(n) {
+  const br = DATA.bracket || {};
+  for (const r of br.rondas || [])
+    for (const p of r.partidos) if (p.n === n) return p;
+  return null;
+}
+function koHasScore(p) { return p && p.score1 != null && p.score2 != null; }
+function koFinished(p) { return p && p.status === "FINISHED" && koHasScore(p); }
+function koLive(p) { return p && p.status === "IN_PLAY"; }
+// equipo de un lado del cruce: usa el equipo confirmado (t1/t2) si existe; si no, resuelve el "slot"
+function koTeamSide(p, side, seen) {
+  const t = side === "s1" ? p.t1 : p.t2;
+  if (t && t.key) return { key: t.key, name: t.name, real: true };
+  return resolveSlot(p[side], seen);
+}
+// quien gano un cruce ya terminado: devuelve "s1" o "s2" (penales con campo "pen": 1 o 2)
+function koWinnerSide(p) {
+  if (!koFinished(p)) return null;
+  if (p.score1 > p.score2) return "s1";
+  if (p.score2 > p.score1) return "s2";
+  if (p.pen === 1) return "s1";
+  if (p.pen === 2) return "s2";
+  return null; // empate sin definir (no deberia pasar en eliminacion)
+}
+
+// Resuelve un "slot" (1A, 2B, 3:..., W74, L101) a un equipo real o a una etiqueta.
+// "seen" evita bucles infinitos al seguir la cadena de ganadores.
+function resolveSlot(code, seen) {
+  seen = seen || new Set();
   let m = code.match(/^([12])([A-L])$/);
   if (m) {
     const pos = +m[1], grp = m[2];
@@ -331,10 +437,21 @@ function resolveSlot(code) {
   }
   m = code.match(/^3:(.+)$/);
   if (m) return { label: `3º (${m[1]})` };
-  m = code.match(/^W(\d+)$/);
-  if (m) return { label: `Ganador ${m[1]}` };
-  m = code.match(/^L(\d+)$/);
-  if (m) return { label: `Perdedor ${m[1]}` };
+  m = code.match(/^(W|L)(\d+)$/);
+  if (m) {
+    const kind = m[1], n = +m[2];
+    const etiqueta = `${kind === "W" ? "Ganador" : "Perdedor"} ${n}`;
+    if (seen.has(n)) return { label: etiqueta };
+    seen.add(n);
+    const p = koMatchByN(n);
+    const win = koWinnerSide(p);
+    if (win) {
+      const wantSide = kind === "W" ? win : (win === "s1" ? "s2" : "s1"); // perdedor = el otro lado
+      const r = koTeamSide(p, wantSide, seen);
+      if (r.real) return r;
+    }
+    return { label: etiqueta };
+  }
   return { label: code };
 }
 function slotHtml(code) {
@@ -342,19 +459,43 @@ function slotHtml(code) {
   if (r.real) return `<span class="bteam">${flagImg(r.key)}${r.name}</span>`;
   return `<span class="bslot">${r.label}</span>`;
 }
+function koSlotHtml(p, side) {
+  const r = koTeamSide(p, side);
+  if (r.real) return `<span class="bteam">${flagImg(r.key)}${r.name}</span>`;
+  return `<span class="bslot">${r.label}</span>`;
+}
+
 function renderBracket() {
   const el = document.getElementById("bracket");
-  let html = `<h2 class="section-title">🏆 Bracket (la llave)</h2>`;
-  html += `<p class="hint">Resumen de la fase final. Los nombres se van llenando solos a medida que terminan los grupos y los partidos.</p>`;
+  let html = `<h2 class="section-title">🏆 Fase final (la llave)</h2>`;
+  html += `<p class="hint">Cada cruce muestra los equipos, las fechas y por qué canal verlo. Los nombres y el ganador se llenan solos a medida que se juega.</p>`;
+  html += canalLegend();
   html += `<div class="bracket-scroll"><div class="bracket">`;
   for (const r of DATA.bracket.rondas) {
     html += `<div class="bround">
       <div class="bround-h">${r.nombre}<span>${r.fechas}</span></div>`;
+    if (r.canales && r.canales.length)
+      html += `<div class="bround-canales">📺 ${r.canales.map(canalChip).join("")}</div>`;
+    if (r.nota_canales) html += `<div class="bround-nota">${r.nota_canales}</div>`;
     for (const p of r.partidos) {
-      html += `<div class="bmatch">
-        <div class="brow">${slotHtml(p.s1)}</div>
-        <div class="bvs">vs</div>
-        <div class="brow">${slotHtml(p.s2)}</div>
+      const fin = koFinished(p), live = koLive(p), sc = koHasScore(p);
+      const win = koWinnerSide(p);
+      const w1 = win === "s1", w2 = win === "s2";
+      let mid;
+      if (sc) {
+        const pen = (fin && p.pen) ? ` <span class="bpen">(pen.)</span>` : "";
+        mid = `<div class="bscore">${p.score1} - ${p.score2}${pen}</div>`;
+      } else {
+        mid = `<div class="bvs">vs</div>`;
+      }
+      const fecha = p.kickoff_utc
+        ? `<div class="bfecha">${fmtDayShort(dObj(p))} · ${fmtTime(dObj(p))} hrs</div>` : "";
+      html += `<div class="bmatch${fin ? " done" : ""}${live ? " live" : ""}">
+        <div class="bnum">#${p.n}${live ? ` <span class="blive">● En vivo</span>` : ""}</div>
+        ${fecha}
+        <div class="brow${w1 ? " bwin" : ""}">${koSlotHtml(p, "s1")}</div>
+        ${mid}
+        <div class="brow${w2 ? " bwin" : ""}">${koSlotHtml(p, "s2")}</div>
       </div>`;
     }
     html += `</div>`;

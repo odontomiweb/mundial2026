@@ -225,6 +225,19 @@ table.standings .pts { font-weight: 800; color: var(--gold); }
 .bteam { font-size: .8rem; font-weight: 700; display: flex; align-items: center; gap: 5px; }
 .bflag { font-size: 1.1rem; }
 .bslot { font-size: .72rem; color: var(--muted); }
+.bround-canales { display: flex; flex-wrap: wrap; gap: 4px; justify-content: center; margin-bottom: 6px; }
+.bround-nota { font-size: .58rem; color: var(--muted); text-align: center; margin-bottom: 10px; line-height: 1.3; }
+.bnum { font-size: .58rem; color: var(--muted); margin-bottom: 4px; display: flex; align-items: center; gap: 6px; }
+.bscore { text-align: center; font-size: 1.05rem; font-weight: 800; letter-spacing: 1px; color: var(--gold); margin: 3px 0; }
+.bpen { font-size: .58rem; font-weight: 700; color: var(--muted); }
+.bmatch.done { border-color: var(--gold); }
+.bmatch.live { border-color: var(--live); }
+.brow.bwin .bteam { color: var(--gold); }
+.brow.bwin .bteam::after { content: " ✓"; color: var(--gold); font-size: .7rem; }
+.blive { color: var(--live); font-weight: 800; animation: pulse 1.2s infinite; }
+.bfecha { font-size: .58rem; color: var(--muted); text-align: center; margin-bottom: 4px; }
+.tname.slot { color: var(--muted); font-weight: 600; font-style: italic; }
+.pen-note { font-size: .7rem; font-weight: 700; color: var(--muted); }
 
 /* ---------- Favoritos al título (campeón) ---------- */
 .src { font-size: .68rem; color: var(--muted); margin: 4px 0 10px; }
